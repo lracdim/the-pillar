@@ -2,9 +2,31 @@ import { functions, FN_INCREMENT } from './appwrite.js';
 
 export async function incrementVisitor(slug) {
   try {
+    // Attempt via function first (cleaner, prevents race conditions)
     await functions.createExecution(FN_INCREMENT, JSON.stringify({ slug }));
   } catch (err) {
-    console.warn("Counter increment failed:", err.message);
+    console.warn("Function increment failed, trying client-side fallback...");
+    
+    // Fallback: Direct database update
+    const { databases, DB_ID, COL_VISITORS } = await import('./appwrite.js');
+    const { Query } = await import("https://cdn.jsdelivr.net/npm/appwrite@16/dist/esm/sdk.js");
+
+    try {
+      const result = await databases.listDocuments(DB_ID, COL_VISITORS, [Query.equal('slug', slug)]);
+      if (result.documents.length > 0) {
+        const doc = result.documents[0];
+        await databases.updateDocument(DB_ID, COL_VISITORS, doc.$id, {
+          count: (doc.count || 0) + 1
+        });
+      } else {
+        await databases.createDocument(DB_ID, COL_VISITORS, 'unique()', {
+          slug: slug,
+          count: 1
+        });
+      }
+    } catch (dbErr) {
+      console.error("Direct increment also failed:", dbErr.message);
+    }
   }
 }
 
