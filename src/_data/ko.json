@@ -1,0 +1,51 @@
+{
+  "nav_read": "읽기",
+  "nav_about": "소개",
+  "nav_characters": "등장인물",
+  "nav_signin": "로그인",
+  "nav_signup": "계정 만들기",
+  "nav_signout": "로그아웃",
+
+  "lang_select_label": "언어",
+  "lang_ko": "🇰🇷 한국어",
+  "lang_en": "🇺🇸 English",
+
+  "hero_volume": "제1권",
+  "hero_subtitle": "왕국을 뒤흔드는 자",
+  "stat_readers": "독자",
+  "stat_visitors": "방문자",
+  "stat_episodes": "에피소드",
+  "stat_kingdoms": "왕국",
+
+  "sidebar_episodes": "에피소드",
+  "sidebar_locked": "잠김",
+  "sidebar_free_preview": "무료 미리보기",
+
+  "gate_title": "계속 읽으시겠어요?",
+  "gate_subtitle": "더 필라의 모든 에피소드를 읽으려면 무료 계정을 만드세요.",
+  "gate_cta_signup": "무료 계정 만들기",
+  "gate_cta_signin": "로그인",
+
+  "auth_join_title": "이야기에 참여하세요",
+  "auth_join_subtitle": "무료. 광고 없음. 소설만 있습니다.",
+  "auth_name_label": "이름",
+  "auth_email_label": "이메일",
+  "auth_password_label": "비밀번호",
+  "auth_signup_btn": "계정 만들기",
+  "auth_signin_btn": "로그인",
+  "auth_switch_to_signin": "이미 계정이 있으신가요?",
+  "auth_switch_to_signup": "계정이 없으신가요?",
+
+  "comments_title": "댓글",
+  "comments_placeholder": "생각을 남겨주세요... (3–500자)",
+  "comments_post_btn": "등록",
+  "comments_signin_prompt": "댓글을 남기려면 로그인하세요",
+  "comments_empty": "아직 댓글이 없습니다. 첫 번째 독자가 되어 주세요.",
+  "comments_loading": "댓글을 불러오는 중...",
+
+  "visitor_label": "조회",
+  "reading_time_suffix": "분 읽기",
+
+  "ep_prev": "이전 화",
+  "ep_next": "다음 화"
+}

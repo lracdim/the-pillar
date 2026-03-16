@@ -1,0 +1,64 @@
+---
+title: "Sign Up - The Pillar"
+lang: en
+---
+
+{% extends "base.njk" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="/assets/css/auth.css">
+{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <h1 class="auth-title">Create Account</h1>
+    <p style="margin-bottom: 25px; color: var(--text-muted);">Join the kingdom and track your journey.</p>
+    
+    <form class="auth-form" id="signup-form">
+        <input type="text" id="name" class="auth-input" placeholder="Username" required>
+        <input type="email" id="email" class="auth-input" placeholder="Email Address" required>
+        <input type="password" id="password" class="auth-input" placeholder="Password (min 8 chars)" minlength="8" required>
+        <button type="submit" class="auth-btn">Sign Up</button>
+    </form>
+
+    <div id="auth-loading" class="auth-loading">Creating your account...</div>
+    <div id="auth-success" class="auth-success">Welcome! Redirecting to home...</div>
+    <div id="auth-error" class="auth-error">Signup failed. Please try again.</div>
+
+    <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted);">
+        Already have an account? <a href="/login/en/" style="color: var(--primary-color);">Login</a>
+    </p>
+</div>
+
+<script type="module">
+    import { signup } from '/js/auth.js';
+
+    const form = document.getElementById('signup-form');
+    const loading = document.getElementById('auth-loading');
+    const success = document.getElementById('auth-success');
+    const error = document.getElementById('auth-error');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        form.style.display = 'none';
+        loading.style.display = 'block';
+        error.style.display = 'none';
+
+        const result = await signup(email, password, name);
+
+        loading.style.display = 'none';
+        if (result.success) {
+            success.style.display = 'block';
+            setTimeout(() => { window.location.href = '/'; }, 1500);
+        } else {
+            form.style.display = 'flex';
+            error.style.display = 'block';
+            error.textContent = result.message;
+        }
+    });
+</script>
+{% endblock %}

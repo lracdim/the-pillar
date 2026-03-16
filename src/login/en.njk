@@ -1,0 +1,66 @@
+---
+title: "Login - The Pillar"
+lang: en
+---
+
+{% extends "base.njk" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="/assets/css/auth.css">
+{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <h1 class="auth-title">Welcome Back</h1>
+    <p style="margin-bottom: 25px; color: var(--text-secondary);">Login to track your reading progress.</p>
+    
+    <form class="auth-form" id="login-form">
+        <label for="identifier" style="text-align: left; font-size: 0.8rem; color: var(--text-muted); margin-bottom: -10px;">Username or Email</label>
+        <input type="text" id="identifier" class="auth-input" placeholder="Enter your username or email" required>
+        
+        <label for="password" style="text-align: left; font-size: 0.8rem; color: var(--text-muted); margin-bottom: -10px;">Password</label>
+        <input type="password" id="password" class="auth-input" placeholder="Enter your password" required>
+        
+        <button type="submit" class="auth-btn">Login</button>
+    </form>
+
+    <div id="auth-loading" class="auth-loading">Checking credentials...</div>
+    <div id="auth-success" class="auth-success">Success! Redirecting...</div>
+    <div id="auth-error" class="auth-error">Invalid email or password.</div>
+
+    <p style="margin-top: 25px; font-size: 0.9rem; color: var(--text-secondary);">
+        Don't have an account? <a href="/signup/en/" style="color: var(--ink); font-weight: 600;">Sign up</a>
+    </p>
+</div>
+
+<script type="module">
+    import { login } from '/js/auth.js';
+
+    const form = document.getElementById('login-form');
+    const loading = document.getElementById('auth-loading');
+    const success = document.getElementById('auth-success');
+    const error = document.getElementById('auth-error');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const identifier = document.getElementById('identifier').value;
+        const password = document.getElementById('password').value;
+
+        form.style.display = 'none';
+        loading.style.display = 'block';
+        error.style.display = 'none';
+
+        const result = await login(identifier, password);
+
+        loading.style.display = 'none';
+        if (result.success) {
+            success.style.display = 'block';
+            setTimeout(() => { window.location.href = '/'; }, 1000);
+        } else {
+            form.style.display = 'flex';
+            error.style.display = 'block';
+            error.textContent = result.message;
+        }
+    });
+</script>
+{% endblock %}

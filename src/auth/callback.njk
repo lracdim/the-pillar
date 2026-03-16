@@ -1,0 +1,55 @@
+---
+title: "Authenticating..."
+---
+
+{% extends "base.njk" %}
+
+{% block content %}
+<div class="auth-container">
+    <h1 class="auth-title" id="status-title">Authenticating...</h1>
+    <div id="status-message" style="margin-bottom: 25px; color: var(--text-muted);">Please wait while we secure your session.</div>
+    <div id="loader" class="loader-pulse"></div>
+</div>
+
+<style>
+.loader-pulse {
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    animation: pulse 1.2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(0); }
+    100% { transform: scale(1.0); opacity: 0; }
+}
+</style>
+
+<script type="module">
+    import { completeMagicLinkLogin } from '/js/auth.js';
+
+    async function handleCallback() {
+        const title = document.getElementById('status-title');
+        const message = document.getElementById('status-message');
+        const loader = document.getElementById('loader');
+
+        const result = await completeMagicLinkLogin();
+
+        if (result.success) {
+            title.textContent = 'Login Successful!';
+            message.textContent = 'Welcome back! Redirecting you to home...';
+            setTimeout(() => {
+                window.location.href = '/';
+            }, 2000);
+        } else {
+            title.textContent = 'Login Failed';
+            message.textContent = result.message || 'The link may have expired.';
+            loader.style.display = 'none';
+        }
+    }
+
+    handleCallback();
+</script>
+{% endblock %}

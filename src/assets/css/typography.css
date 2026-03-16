@@ -1,0 +1,72 @@
+.episode-body {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+  color: var(--text-primary);
+  /* Changed from secondary to primary for better contrast */
+  max-width: 68ch;
+  /* Slightly wider for larger text */
+}
+
+[lang="ko"] .episode-body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: var(--text-md);
+  line-height: 2.1;
+}
+
+.episode-body p:first-of-type::first-letter {
+  font-family: 'Noto Serif KR', Georgia, serif;
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--ink);
+  float: left;
+  line-height: 0.8;
+  margin: 6px 10px 0 0;
+}
+
+.episode-label {
+  font-size: var(--text-xs);
+  color: var(--ink-dim);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.episode-title {
+  font-family: 'Noto Serif KR', Georgia, serif;
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: var(--leading-tight);
+  margin-bottom: 28px;
+}
+
+.episode-body blockquote {
+  border-left: 2px solid var(--ink);
+  margin: 20px 0;
+  padding: 8px 16px;
+  background: rgba(201, 169, 110, 0.04);
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Serif KR', Georgia, serif;
+  color: var(--text-primary);
+  line-height: var(--leading-tight);
+}
+
+h3 {
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 56px;
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
+}

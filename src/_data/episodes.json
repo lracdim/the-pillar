@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "ep1",
+    "episode": 1,
+    "free": true,
+    "published": true,
+    "titles": {
+      "ko": "바둑과 구씨",
+      "en": "The Go and the Gu"
+    },
+    "excerpt": {
+      "ko": "소년에게는 지킬 이름이 없었다. 마을 사람들은 그를 고아라고 불렀다.",
+      "en": "The boy had no name worth keeping. The village called him Orphan, which was not a name at all."
+    }
+  },
+  {
+    "slug": "ep2",
+    "episode": 2,
+    "free": false,
+    "published": true,
+    "titles": {
+      "ko": "바둑판과 말들",
+      "en": "The Go Board and Its Pieces"
+    },
+    "excerpt": {
+      "ko": "바둑은 전쟁의 은유가 아니다. 전쟁은 바둑의 은유다.",
+      "en": "Go is not a metaphor for war. War is a metaphor for Go."
+    }
+  },
+  {
+    "slug": "ep3",
+    "episode": 3,
+    "free": false,
+    "published": true,
+    "titles": {
+      "ko": "희생의 대마",
+      "en": "The Great Piece of Sacrifice"
+    },
+    "excerpt": {
+      "ko": "대마는 죽는 것이 아니다. 대마는 놓치는 것이다.",
+      "en": "The great piece does not die. The great piece is the one that gets lost."
+    }
+  },
+  {
+    "slug": "ep4",
+    "episode": 4,
+    "free": false,
+    "published": true,
+    "titles": {
+      "ko": "같은 곳에 두 번 치는 번개",
+      "en": "Lightning Strikes the Same Place Twice"
+    },
+    "excerpt": {
+      "ko": "천둥은 같은 곳에 두 번 치지 않는다라고 사람들은 말한다. 그들은 틀렸다.",
+      "en": "They say lightning never strikes the same place twice. They are wrong."
+    }
+  },
+  {
+    "slug": "ep5",
+    "episode": 5,
+    "free": false,
+    "published": true,
+    "titles": {
+      "ko": "왕실의 피 노예",
+      "en": "The Royal Blood Slave"
+    },
+    "excerpt": {
+      "ko": "기대할 것이 없을 때 하는 사랑이 있다. 이미 사라진 것에 모든 것을 쏟아붓는 사랑.",
+      "en": "There is a kind of love that spends itself completely on something that is already gone."
+    }
+  }
+]

@@ -1,0 +1,40 @@
+<div class="auth-backdrop" id="auth-backdrop">
+  <div class="auth-modal">
+    <button class="auth-close" id="auth-close">&times;</button>
+    
+    <div id="auth-form-signup">
+      <h2 class="auth-title">{% if lang == 'ko' %}{{ ko.auth_join_title }}{% else %}{{ en.auth_join_title }}{% endif %}</h2>
+      <p class="auth-subtitle">{% if lang == 'ko' %}{{ ko.auth_join_subtitle }}{% else %}{{ en.auth_join_subtitle }}{% endif %}</p>
+      
+      <form class="auth-form" id="form-signup">
+        <input type="text" class="auth-input" id="signup-name" placeholder="{% if lang == 'ko' %}{{ ko.auth_name_label }}{% else %}{{ en.auth_name_label }}{% endif %}" required>
+        <input type="email" class="auth-input" id="signup-email" placeholder="{% if lang == 'ko' %}{{ ko.auth_email_label }}{% else %}{{ en.auth_email_label }}{% endif %}" required>
+        <input type="password" class="auth-input" id="signup-password" placeholder="{% if lang == 'ko' %}{{ ko.auth_password_label }}{% else %}{{ en.auth_password_label }}{% endif %}" required minlength="8">
+        <div class="auth-error" id="signup-error"></div>
+        <button type="submit" class="auth-submit" id="signup-submit">{% if lang == 'ko' %}{{ ko.auth_signup_btn }}{% else %}{{ en.auth_signup_btn }}{% endif %}</button>
+      </form>
+      
+      <p class="auth-toggle">
+        {% if lang == 'ko' %}{{ ko.auth_switch_to_signin }}{% else %}{{ en.auth_switch_to_signin }}{% endif %}
+        <button id="switch-to-signin">{% if lang == 'ko' %}{{ ko.auth_signin_btn }}{% else %}{{ en.auth_signin_btn }}{% endif %}</button>
+      </p>
+    </div>
+    
+    <div id="auth-form-signin" class="hidden">
+      <h2 class="auth-title">{% if lang == 'ko' %}{{ ko.auth_join_title }}{% else %}{{ en.auth_join_title }}{% endif %}</h2>
+      <p class="auth-subtitle">{% if lang == 'ko' %}{{ ko.auth_join_subtitle }}{% else %}{{ en.auth_join_subtitle }}{% endif %}</p>
+      
+      <form class="auth-form" id="form-signin">
+        <input type="email" class="auth-input" id="signin-email" placeholder="{% if lang == 'ko' %}{{ ko.auth_email_label }}{% else %}{{ en.auth_email_label }}{% endif %}" required>
+        <input type="password" class="auth-input" id="signin-password" placeholder="{% if lang == 'ko' %}{{ ko.auth_password_label }}{% else %}{{ en.auth_password_label }}{% endif %}" required>
+        <div class="auth-error" id="signin-error"></div>
+        <button type="submit" class="auth-submit" id="signin-submit">{% if lang == 'ko' %}{{ ko.auth_signin_btn }}{% else %}{{ en.auth_signin_btn }}{% endif %}</button>
+      </form>
+      
+      <p class="auth-toggle">
+        {% if lang == 'ko' %}{{ ko.auth_switch_to_signup }}{% else %}{{ en.auth_switch_to_signup }}{% endif %}
+        <button id="switch-to-signup">{% if lang == 'ko' %}{{ ko.auth_signup_btn }}{% else %}{{ en.auth_signup_btn }}{% endif %}</button>
+      </p>
+    </div>
+  </div>
+</div>

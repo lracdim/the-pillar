@@ -1,0 +1,42 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="hero">
+  <h1 class="hero-title">{{ site.name }}</h1>
+  <p class="hero-subtitle">{% if lang == 'ko' %}{{ ko.hero_subtitle }}{% else %}{{ en.hero_subtitle }}{% endif %}</p>
+  
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num" id="total-readers">-</div>
+      <div class="stat-label">{% if lang == 'ko' %}{{ ko.stat_readers }}{% else %}{{ en.stat_readers }}{% endif %}</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="total-visitors">-</div>
+      <div class="stat-label">{% if lang == 'ko' %}{{ ko.stat_visitors }}{% else %}{{ en.stat_visitors }}{% endif %}</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">{{ episodes | length }}</div>
+      <div class="stat-label">{% if lang == 'ko' %}{{ ko.stat_episodes }}{% else %}{{ en.stat_episodes }}{% endif %}</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">1</div>
+      <div class="stat-label">{% if lang == 'ko' %}{{ ko.stat_kingdoms }}{% else %}{{ en.stat_kingdoms }}{% endif %}</div>
+    </div>
+  </div>
+</section>
+
+<div class="home-episode-grid">
+  {% for ep in episodes %}
+  <a href="/{{ lang }}/{{ ep.slug }}/" class="episode-card" data-slug="{{ ep.slug }}" data-free="{{ ep.free }}">
+    <div class="episode-card-num">{% if lang == 'ko' %}{{ ko.sidebar_episodes }}{% else %}{{ en.sidebar_episodes }}{% endif %} {{ ep.episode }}</div>
+    <h2 class="episode-card-title">{{ ep.titles[lang] }}</h2>
+    <p class="episode-card-excerpt">{{ ep.excerpt[lang] }}</p>
+    {% if ep.free %}
+    <span class="episode-card-badge">{% if lang == 'ko' %}{{ ko.sidebar_free_preview }}{% else %}{{ en.sidebar_free_preview }}{% endif %}</span>
+    {% else %}
+    <span class="episode-card-badge">🔒 {% if lang == 'ko' %}{{ ko.sidebar_locked }}{% else %}{{ en.sidebar_locked }}{% endif %}</span>
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

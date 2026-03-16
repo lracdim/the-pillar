@@ -1,0 +1,49 @@
+{% extends "base.njk" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="/assets/css/reader.css">
+{% endblock %}
+
+{% block content %}
+<main class="main-layout">
+  {% include "partials/sidebar.njk" %}
+  
+  <article class="reader">
+    <div class="episode-label">{% if lang == 'ko' %}{{ ko.hero_volume }}{% else %}{{ en.hero_volume }}{% endif %}</div>
+    <h1 class="episode-title">{{ title }}</h1>
+    
+    <div class="reading-time">
+      {{ wordCount or 3000 }} {% if lang == 'ko' %}{{ ko.reading_time_suffix }}{% else %}{{ en.reading_time_suffix }}{% endif %}
+    </div>
+    
+    <div class="book-container">
+      <div class="book-pages-wrapper" id="book-wrapper">
+        <div class="episode-body" id="episode-body">
+          {{ content | safe }}
+        </div>
+      </div>
+    </div>
+
+    <div class="book-pagination" id="book-controls">
+      <button class="page-btn" id="prev-page" disabled>&larr; Previous</button>
+      <span class="page-num" id="page-indicator">Page 1 of 1</span>
+      <button class="page-btn" id="next-page">Next &rarr;</button>
+    </div>
+    
+    <div class="episode-nav">
+      {% if prevEpisode %}
+      <a href="/{{ lang }}/{{ prevEpisode }}/">&larr; {% if lang == 'ko' %}{{ ko.ep_prev }}{% else %}{{ en.ep_prev }}{% endif %}</a>
+      {% else %}
+      <span></span>
+      {% endif %}
+      
+      {% if nextEpisode %}
+      <a href="/{{ lang }}/{{ nextEpisode }}/">{% if lang == 'ko' %}{{ ko.ep_next }}{% else %}{{ en.ep_next }}{% endif %} &rarr;</a>
+      {% endif %}
+    </div>
+  </article>
+  
+  {% include "partials/right-panel.njk" %}
+</main>
+<script type="module" src="/js/reader.js"></script>
+{% endblock %}

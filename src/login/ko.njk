@@ -1,0 +1,66 @@
+---
+title: "로그인 - 더 필라"
+lang: ko
+---
+
+{% extends "base.njk" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="/assets/css/auth.css">
+{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <h1 class="auth-title">다시 오신 것을 환영합니다</h1>
+    <p style="margin-bottom: 25px; color: var(--text-secondary);">로그인하여 읽기 진행 상황을 저장하세요.</p>
+    
+    <form class="auth-form" id="login-form">
+        <label for="identifier" style="text-align: left; font-size: 0.8rem; color: var(--text-muted); margin-bottom: -10px;">사용자 이름 또는 이메일</label>
+        <input type="text" id="identifier" class="auth-input" placeholder="사용자 이름 또는 이메일을 입력하세요" required>
+        
+        <label for="password" style="text-align: left; font-size: 0.8rem; color: var(--text-muted); margin-bottom: -10px;">비밀번호</label>
+        <input type="password" id="password" class="auth-input" placeholder="비밀번호를 입력하세요" required>
+        
+        <button type="submit" class="auth-btn">로그인</button>
+    </form>
+
+    <div id="auth-loading" class="auth-loading">정보를 확인 중입니다...</div>
+    <div id="auth-success" class="auth-success">로그인 성공! 이동 중입니다...</div>
+    <div id="auth-error" class="auth-error">아이디 또는 비밀번호가 올바르지 않습니다.</div>
+
+    <p style="margin-top: 25px; font-size: 0.9rem; color: var(--text-secondary);">
+        계정이 없으신가요? <a href="/signup/ko/" style="color: var(--ink); font-weight: 600;">회원가입</a>
+    </p>
+</div>
+
+<script type="module">
+    import { login } from '/js/auth.js';
+
+    const form = document.getElementById('login-form');
+    const loading = document.getElementById('auth-loading');
+    const success = document.getElementById('auth-success');
+    const error = document.getElementById('auth-error');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const identifier = document.getElementById('identifier').value;
+        const password = document.getElementById('password').value;
+
+        form.style.display = 'none';
+        loading.style.display = 'block';
+        error.style.display = 'none';
+
+        const result = await login(identifier, password);
+
+        loading.style.display = 'none';
+        if (result.success) {
+            success.style.display = 'block';
+            setTimeout(() => { window.location.href = '/'; }, 1000);
+        } else {
+            form.style.display = 'flex';
+            error.style.display = 'block';
+            error.textContent = result.message;
+        }
+    });
+</script>
+{% endblock %}

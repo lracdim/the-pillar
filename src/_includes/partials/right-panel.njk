@@ -1,0 +1,23 @@
+<aside class="right-panel">
+  <div class="visitor-box">
+    <div class="visitor-num" id="visitor-count">-</div>
+    <div class="visitor-label">{% if lang == 'ko' %}{{ ko.visitor_label }}{% else %}{{ en.visitor_label }}{% endif %}</div>
+  </div>
+  
+  <div class="comments-section">
+    <div class="comments-title">{% if lang == 'ko' %}{{ ko.comments_title }}{% else %}{{ en.comments_title }}{% endif %}</div>
+    
+    <div class="comments-list" id="comments-list">
+      <div class="comments-empty" id="comments-loading">{% if lang == 'ko' %}{{ ko.comments_loading }}{% else %}{{ en.comments_loading }}{% endif %}</div>
+    </div>
+    
+    <div id="comments-form-signed-out" class="comments-signin-prompt">
+      {% if lang == 'ko' %}{{ ko.comments_signin_prompt }}{% else %}{{ en.comments_signin_prompt }}{% endif %}
+    </div>
+    
+    <form class="comment-form hidden" id="comment-form">
+      <textarea class="comment-textarea" id="comment-input" placeholder="{% if lang == 'ko' %}{{ ko.comments_placeholder }}{% else %}{{ en.comments_placeholder }}{% endif %}" maxlength="500"></textarea>
+      <button type="submit" class="comment-post-btn">{% if lang == 'ko' %}{{ ko.comments_post_btn }}{% else %}{{ en.comments_post_btn }}{% endif %}</button>
+    </form>
+  </div>
+</aside>

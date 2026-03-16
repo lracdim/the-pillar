@@ -1,0 +1,51 @@
+{
+  "nav_read": "Read",
+  "nav_about": "About",
+  "nav_characters": "Characters",
+  "nav_signin": "Sign in",
+  "nav_signup": "Create account",
+  "nav_signout": "Sign out",
+
+  "lang_select_label": "Language",
+  "lang_ko": "🇰🇷 한국어",
+  "lang_en": "🇺🇸 English",
+
+  "hero_volume": "VOLUME I",
+  "hero_subtitle": "A Man That Shakes The Whole Kingdom",
+  "stat_readers": "Readers",
+  "stat_visitors": "Visitors",
+  "stat_episodes": "Episodes",
+  "stat_kingdoms": "Kingdoms",
+
+  "sidebar_episodes": "EPISODES",
+  "sidebar_locked": "Locked",
+  "sidebar_free_preview": "Free preview",
+
+  "gate_title": "Continue reading?",
+  "gate_subtitle": "Create a free account to unlock all episodes of The Pillar.",
+  "gate_cta_signup": "Create free account",
+  "gate_cta_signin": "Sign in",
+
+  "auth_join_title": "Join the story",
+  "auth_join_subtitle": "Free. No ads. Just the novel.",
+  "auth_name_label": "Name",
+  "auth_email_label": "Email",
+  "auth_password_label": "Password",
+  "auth_signup_btn": "Create account",
+  "auth_signin_btn": "Sign in",
+  "auth_switch_to_signin": "Already have an account?",
+  "auth_switch_to_signup": "Don't have an account?",
+
+  "comments_title": "Comments",
+  "comments_placeholder": "Leave a thought... (3–500 characters)",
+  "comments_post_btn": "Post",
+  "comments_signin_prompt": "Sign in to leave a comment",
+  "comments_empty": "No comments yet. Be the first reader.",
+  "comments_loading": "Loading comments...",
+
+  "visitor_label": "Views",
+  "reading_time_suffix": "min read",
+
+  "ep_prev": "Previous",
+  "ep_next": "Next"
+}

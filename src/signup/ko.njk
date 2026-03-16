@@ -1,0 +1,64 @@
+---
+title: "회원가입 - 더 필라"
+lang: ko
+---
+
+{% extends "base.njk" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="/assets/css/auth.css">
+{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <h1 class="auth-title">계정 생성</h1>
+    <p style="margin-bottom: 25px; color: var(--text-muted);">왕국에 합류하여 당신의 여정을 기록하세요.</p>
+    
+    <form class="auth-form" id="signup-form">
+        <input type="text" id="name" class="auth-input" placeholder="사용자 이름" required>
+        <input type="email" id="email" class="auth-input" placeholder="이메일 주소" required>
+        <input type="password" id="password" class="auth-input" placeholder="비밀번호 (8자 이상)" minlength="8" required>
+        <button type="submit" class="auth-btn">가입하기</button>
+    </form>
+
+    <div id="auth-loading" class="auth-loading">계정을 생성 중입니다...</div>
+    <div id="auth-success" class="auth-success">환영합니다! 홈으로 이동 중입니다...</div>
+    <div id="auth-error" class="auth-error">가입에 실패했습니다. 다시 시도해주세요.</div>
+
+    <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted);">
+        이미 계정이 있으신가요? <a href="/login/ko/" style="color: var(--primary-color);">로그인</a>
+    </p>
+</div>
+
+<script type="module">
+    import { signup } from '/js/auth.js';
+
+    const form = document.getElementById('signup-form');
+    const loading = document.getElementById('auth-loading');
+    const success = document.getElementById('auth-success');
+    const error = document.getElementById('auth-error');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        form.style.display = 'none';
+        loading.style.display = 'block';
+        error.style.display = 'none';
+
+        const result = await signup(email, password, name);
+
+        loading.style.display = 'none';
+        if (result.success) {
+            success.style.display = 'block';
+            setTimeout(() => { window.location.href = '/'; }, 1500);
+        } else {
+            form.style.display = 'flex';
+            error.style.display = 'block';
+            error.textContent = result.message;
+        }
+    });
+</script>
+{% endblock %}

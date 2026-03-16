@@ -1,0 +1,19 @@
+---
+permalink: /index.html
+layout: null
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/ko/" />
+    <script>
+      // Detect browser language or check cookie
+      const lang = document.cookie.match(/pillar_lang=([^;]+)/)?.[1] || 
+                   (navigator.language.startsWith('en') ? 'en' : 'ko');
+      window.location.href = '/' + lang + '/';
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/ko/">Korean</a> / <a href="/en/">English</a>...</p>
+  </body>
+</html>

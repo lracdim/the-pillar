@@ -1,0 +1,10 @@
+{
+  "name": "THE PILLAR",
+  "nameKo": "기둥",
+  "tagline": "A Man That Shakes The Whole Kingdom",
+  "url": "https://thepillar.vercel.app",
+  "ogImage": "/assets/img/og-image.jpg",
+  "twitterHandle": "",
+  "defaultLang": "ko",
+  "availableLangs": ["ko", "en"]
+}

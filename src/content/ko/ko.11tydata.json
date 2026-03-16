@@ -1,0 +1,5 @@
+{
+  "lang": "ko",
+  "layout": "reader.njk",
+  "permalink": "/ko/{{ slug }}/"
+}

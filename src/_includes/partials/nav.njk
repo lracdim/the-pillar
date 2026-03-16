@@ -1,0 +1,49 @@
+<nav class="navbar">
+  <a href="/{{ lang }}/" class="navbar-logo">
+    {{ site.name }}<span class="navbar-logo-sub">{{ site.nameKo }} · 柱</span>
+  </a>
+  
+  <div class="navbar-links">
+    <a href="/{{ lang }}/" {% if page.url == '/' + lang + '/' %}class="active"{% endif %}>{% if lang == 'ko' %}{{ ko.nav_read }}{% else %}{{ en.nav_read }}{% endif %}</a>
+    <a href="/about/" {% if '/about/' in page.url %}class="active"{% endif %}>{% if lang == 'ko' %}{{ ko.nav_about }}{% else %}{{ en.nav_about }}{% endif %}</a>
+    <a href="/characters/" {% if '/characters/' in page.url %}class="active"{% endif %}>{% if lang == 'ko' %}{{ ko.nav_characters }}{% else %}{{ en.nav_characters }}{% endif %}</a>
+  </div>
+  
+  <div class="navbar-actions">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      <span class="icon-sun">☀️</span>
+      <span class="icon-moon">🌙</span>
+    </button>
+    <select id="lang-select" class="lang-select">
+      {% for l in site.availableLangs %}
+      <option value="{{ l }}" {% if l == lang %}selected{% endif %}>{% if l == 'ko' %}{{ ko.lang_ko }}{% else %}{{ en.lang_en }}{% endif %}</option>
+      {% endfor %}
+    </select>
+    
+    <div id="nav-auth-guest">
+      <button class="btn-signin" id="nav-signin-btn">{% if lang == 'ko' %}{{ ko.nav_signin }}{% else %}{{ en.nav_signin }}{% endif %}</button>
+      <button class="btn-signup" id="nav-signup-btn">{% if lang == 'ko' %}{{ ko.nav_signup }}{% else %}{{ en.nav_signup }}{% endif %}</button>
+    </div>
+    
+    <div id="nav-auth-user" class="hidden">
+      <span id="nav-username"></span>
+      <button class="btn-signout" id="nav-signout-btn">{% if lang == 'ko' %}{{ ko.nav_signout }}{% else %}{{ en.nav_signout }}{% endif %}</button>
+    </div>
+    
+    <button class="hamburger" id="hamburger-btn">☰</button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="/{{ lang }}/">{% if lang == 'ko' %}{{ ko.nav_read }}{% else %}{{ en.nav_read }}{% endif %}</a>
+  <a href="/about/">{% if lang == 'ko' %}{{ ko.nav_about }}{% else %}{{ en.nav_about }}{% endif %}</a>
+  <a href="/characters/">{% if lang == 'ko' %}{{ ko.nav_characters }}{% else %}{{ en.nav_characters }}{% endif %}</a>
+  <div id="mobile-auth-guest">
+    <button class="btn-signin" id="mobile-nav-signin-btn">{% if lang == 'ko' %}{{ ko.nav_signin }}{% else %}{{ en.nav_signin }}{% endif %}</button>
+    <button class="btn-signup" id="mobile-nav-signup-btn">{% if lang == 'ko' %}{{ ko.nav_signup }}{% else %}{{ en.nav_signup }}{% endif %}</button>
+  </div>
+  <div id="mobile-auth-user" class="hidden">
+    <span id="mobile-username"></span>
+    <button class="btn-signout" id="mobile-signout-btn">{% if lang == 'ko' %}{{ ko.nav_signout }}{% else %}{{ en.nav_signout }}{% endif %}</button>
+  </div>
+</div>

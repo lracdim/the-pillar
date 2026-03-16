@@ -1,0 +1,17 @@
+<aside class="sidebar">
+  <div class="sidebar-title">{% if lang == 'ko' %}{{ ko.sidebar_episodes }}{% else %}{{ en.sidebar_episodes }}{% endif %}</div>
+  
+  {% for ep in episodes %}
+  <div class="ep-item {% if slug == ep.slug %}active{% endif %} {% if not ep.free %}locked{% endif %}"
+       data-slug="{{ ep.slug }}"
+       data-free="{{ ep.free }}">
+    <div class="ep-num">
+      EP {{ ep.episode }}
+      {% if not ep.free %}
+      <span class="ep-lock-icon">🔒</span>
+      {% endif %}
+    </div>
+    <div class="ep-title">{{ ep.titles[lang] }}</div>
+  </div>
+  {% endfor %}
+</aside>
