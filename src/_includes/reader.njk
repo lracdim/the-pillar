@@ -1,7 +1,34 @@
 {% extends "base.njk" %}
 
 {% block extra_css %}
-<link rel="stylesheet" href="/assets/css/reader.css">
+<style>
+  .reader {
+    padding: 32px 16px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .episode-body {
+    margin-top: 40px;
+    line-height: 1.8;
+  }
+  .episode-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border-base);
+  }
+  .episode-nav a {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .reading-time {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 16px 0;
+  }
+</style>
 {% endblock %}
 
 {% block content %}
@@ -16,20 +43,10 @@
       {% if wordCount %}{{ (wordCount / 200) | round }}{% else %}5{% endif %} {% if lang == 'ko' %}{{ ko.reading_time_suffix }}{% else %}{{ en.reading_time_suffix }}{% endif %}
     </div>
     
-    <div class="book-container">
-      <div class="book-pages-wrapper" id="book-wrapper">
-        <div class="episode-body" id="episode-body">
-          {{ content | safe }}
-        </div>
-      </div>
+    <div class="episode-body" id="episode-body">
+      {{ content | safe }}
     </div>
 
-    <div class="book-pagination" id="book-controls">
-      <button class="page-btn" id="prev-page" disabled>&larr; Previous</button>
-      <span class="page-num" id="page-indicator">Page 1 of 1</span>
-      <button class="page-btn" id="next-page">Next &rarr;</button>
-    </div>
-    
     <div class="episode-nav">
       {% if prevEpisode %}
       <a href="/{{ lang }}/{{ prevEpisode }}/">&larr; {% if lang == 'ko' %}{{ ko.ep_prev }}{% else %}{{ en.ep_prev }}{% endif %}</a>
@@ -45,5 +62,4 @@
   
   {% include "partials/right-panel.njk" %}
 </main>
-<script type="module" src="/js/reader.js"></script>
 {% endblock %}

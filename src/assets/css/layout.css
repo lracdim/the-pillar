@@ -330,7 +330,6 @@
 .reader {
   padding: 24px 16px;
   max-width: 100%;
-  overflow: hidden; /* Prevent vertical scroll when horizontal is active */
 }
 
 .right-panel {
