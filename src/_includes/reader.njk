@@ -13,7 +13,7 @@
     <h1 class="episode-title">{{ title }}</h1>
     
     <div class="reading-time">
-      {{ wordCount or 3000 }} {% if lang == 'ko' %}{{ ko.reading_time_suffix }}{% else %}{{ en.reading_time_suffix }}{% endif %}
+      {% if wordCount %}{{ (wordCount / 200) | round }}{% else %}5{% endif %} {% if lang == 'ko' %}{{ ko.reading_time_suffix }}{% else %}{{ en.reading_time_suffix }}{% endif %}
     </div>
     
     <div class="book-container">

@@ -1,6 +1,5 @@
 /**
  * Book-Style Reader Logic
- * Splits vertical content into horizontal pages for a "book-like" experience.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -15,43 +14,45 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. SPLIT CONTENT INTO PAGES
     const rawHTML = body.innerHTML;
     
-    // Split by markers: ✦, ────────────────────────────, or H3 headers
-    // We use a regex to find these points and split the content
-    const markers = [
-        /<hr[^>]*>/i, 
-        /✦/, 
-        /────────────────────────────/,
-        /<h3/i
-    ];
-
-    // Combine into one master split pattern
-    // We want to keep the delimiter in some cases (headers), so we use positive lookahead
-    let sections = rawHTML.split(/(?=<h3|<hr|✦|────────────────────────────)/i);
+    // Split by markers or headers
+    // Using a more robust splitting strategy
+    let sections = rawHTML.split(/(?=<h3|<hr|✦|────────────────────────────|<h2>)/i);
     
-    // Filter out very small or empty sections
-    sections = sections.filter(s => s.trim().length > 10);
+    // Filter out empty sections
+    sections = sections.filter(s => s.trim().length > 5);
 
-    // If we only have one section, it's not a book! 
-    // Let's force split by paragraph if it's too long
-    if (sections.length <= 1) {
-        const paragraphs = rawHTML.split('</p>');
-        sections = [];
-        let currentChunk = "";
-        for (let p of paragraphs) {
-            currentChunk += p + "</p>";
-            if (currentChunk.length > 1500) { // Approx 1500 chars per page
-                sections.push(currentChunk);
-                currentChunk = "";
+    // If we only have one section or it's too long, split by paragraphs
+    if (sections.length <= 1 || sections.some(s => s.length > 3000)) {
+        const tempSections = [];
+        for (let section of sections) {
+            if (section.length > 3000) {
+                const paragraphs = section.split('</p>');
+                let currentChunk = "";
+                for (let p of paragraphs) {
+                    if (!p.trim()) continue;
+                    currentChunk += p + "</p>";
+                    if (currentChunk.length > 2000) {
+                        tempSections.push(currentChunk);
+                        currentChunk = "";
+                    }
+                }
+                if (currentChunk) tempSections.push(currentChunk);
+            } else {
+                tempSections.push(section);
             }
         }
-        if (currentChunk) sections.push(currentChunk);
+        sections = tempSections;
+    }
+
+    // fallback if everything went wrong
+    if (sections.length === 0) {
+        sections = [rawHTML];
     }
 
     // Clear and build pages
     wrapper.innerHTML = '';
     sections.forEach((content, index) => {
         const page = document.createElement('div');
-        // Add both classes to keep the beautiful typography
         page.className = `book-page episode-body ${index === 0 ? 'active' : ''}`;
         page.innerHTML = content;
         wrapper.appendChild(page);
@@ -61,41 +62,52 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentPage = 0;
     const totalPages = sections.length;
 
-    function updateView() {
-        const width = wrapper.parentElement.offsetWidth;
+    function updateView(instant = false) {
+        if (instant) {
+            wrapper.style.transition = 'none';
+        } else {
+            wrapper.style.transition = 'transform 0.4s cubic-bezier(0.2, 0, 0.2, 1)';
+        }
+        
         wrapper.style.transform = `translateX(-${currentPage * 100}%)`;
         
-        // Update active class
         document.querySelectorAll('.book-page').forEach((p, idx) => {
             p.classList.toggle('active', idx === currentPage);
         });
 
-        // Update buttons
-        prevBtn.disabled = currentPage === 0;
-        nextBtn.disabled = currentPage === totalPages - 1;
+        if (prevBtn) prevBtn.disabled = currentPage === 0;
+        if (nextBtn) nextBtn.disabled = currentPage === totalPages - 1;
         
-        // Update indicator
-        indicator.textContent = `Page ${currentPage + 1} of ${totalPages}`;
+        if (indicator) {
+            indicator.textContent = `Page ${currentPage + 1} of ${totalPages}`;
+        }
         
-        // Scroll to top of content
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (!instant) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     }
 
-    nextBtn.addEventListener('click', () => {
+    nextBtn?.addEventListener('click', () => {
         if (currentPage < totalPages - 1) {
             currentPage++;
             updateView();
         }
     });
 
-    prevBtn.addEventListener('click', () => {
+    prevBtn?.addEventListener('click', () => {
         if (currentPage > 0) {
             currentPage--;
             updateView();
         }
     });
 
-    // 3. SWIPE SUPPORT
+    // 3. KEYBOARD SUPPORT
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') nextBtn?.click();
+        if (e.key === 'ArrowLeft') prevBtn?.click();
+    });
+
+    // 4. SWIPE SUPPORT
     let touchStartX = 0;
     let touchEndX = 0;
 
@@ -105,20 +117,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     wrapper.addEventListener('touchend', (e) => {
         touchEndX = e.changedTouches[0].screenX;
-        handleSwipe();
+        const threshold = 50;
+        if (touchStartX - touchEndX > threshold) nextBtn?.click();
+        else if (touchEndX - touchStartX > threshold) prevBtn?.click();
     }, { passive: true });
 
-    function handleSwipe() {
-        const threshold = 50;
-        if (touchStartX - touchEndX > threshold) {
-            // Swipe Left -> Next
-            nextBtn.click();
-        } else if (touchEndX - touchStartX > threshold) {
-            // Swipe Right -> Prev
-            prevBtn.click();
-        }
-    }
-
     // Initialize
-    updateView();
+    updateView(true);
 });
