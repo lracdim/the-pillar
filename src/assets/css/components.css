@@ -432,13 +432,18 @@
   background: var(--bg-surface);
   border: 0.5px solid var(--border-base);
   border-radius: 12px;
-  padding: 20px;
+  padding: 24px;
   cursor: pointer;
-  transition: border-color 0.15s;
+  transition: all 0.3s cubic-bezier(0.2, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .episode-card:hover {
-  border-color: var(--ink-dim);
+  border-color: var(--ink);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25);
 }
 
 .episode-card-num {
@@ -456,9 +461,10 @@
 }
 
 .episode-card-excerpt {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
-  line-height: 1.6;
+  line-height: 1.7;
+  flex: 1;
 }
 
 .episode-card-badge {
