@@ -34,9 +34,10 @@
 }
 
 .ep-num {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 700;
   color: var(--ink);
+  letter-spacing: 0.02em;
 }
 
 .ep-item.locked .ep-num {
@@ -44,9 +45,10 @@
 }
 
 .ep-title {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
   margin-top: 4px;
+  line-height: 1.4;
 }
 
 .ep-item.locked .ep-title {
@@ -359,26 +361,30 @@
 }
 
 .visitor-box {
-  background: var(--bg-raised);
-  border-radius: 8px;
-  padding: 14px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-base);
+  border-radius: 12px;
+  padding: 24px 16px;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .visitor-num {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 700;
   color: var(--ink);
   font-variant-numeric: tabular-nums;
+  line-height: 1;
 }
 
 .visitor-label {
-  font-size: 10px;
-  color: var(--text-faint);
-  letter-spacing: var(--tracking-caps);
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin-top: 4px;
+  margin-top: 8px;
+  font-weight: 600;
 }
 
 .reading-time {

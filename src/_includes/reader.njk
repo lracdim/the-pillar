@@ -3,30 +3,96 @@
 {% block extra_css %}
 <style>
   .reader {
-    padding: 32px 16px;
-    max-width: 800px;
+    /* Padding and sizing handled by layout.css grid */
     margin: 0 auto;
   }
-  .episode-body {
-    margin-top: 40px;
-    line-height: 1.8;
+  
+  /* PROFESSIONAL EDITORIAL TYPOGRAPHY */
+  body .reader .episode-body {
+    line-height: 1.75 !important;
+    font-size: 19px !important; /* Professional mobile base */
+    color: var(--text-primary) !important;
+    font-family: 'Crimson Pro', serif !important;
+    letter-spacing: -0.01em;
   }
-  .episode-nav {
+
+  @media (min-width: 1024px) {
+    body .reader .episode-body {
+        font-size: 21px !important; /* Professional web size */
+    }
+  }
+
+  /* Headers */
+  body .reader .episode-body h3 {
+    font-size: 24px !important;
+    margin-top: 48px !important;
+    margin-bottom: 24px !important;
+    color: var(--ink) !important;
+    font-weight: 700 !important;
+  }
+
+  .ep-nav-section {
+    margin-top: 80px;
+    padding-bottom: 80px;
+    display: block !important;
+  }
+
+  .ep-nav-divider {
+    height: 1px;
+    background: var(--border-base);
+    margin-bottom: 40px;
+  }
+
+  .ep-nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .ep-nav-btn {
     display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    padding-top: 32px;
-    border-top: 1px solid var(--border-base);
-  }
-  .episode-nav a {
-    color: var(--ink);
+    flex-direction: column;
+    padding: 20px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-base);
+    border-radius: 12px;
+    transition: all 0.2s ease;
     text-decoration: none;
-    font-weight: 600;
   }
-  .reading-time {
-    font-size: 0.9rem;
+
+  .ep-nav-btn:hover {
+    border-color: var(--ink);
+    background: var(--bg-raised);
+  }
+
+  .ep-nav-btn.next {
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  .ep-nav-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     color: var(--text-muted);
-    margin: 16px 0;
+    margin-bottom: 6px;
+  }
+
+  .ep-nav-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 16px;
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .ep-nav-placeholder {
+    visibility: hidden;
+  }
+
+  @media (max-width: 640px) {
+    .ep-nav-links {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 {% endblock %}
@@ -35,28 +101,42 @@
 <main class="main-layout">
   {% include "partials/sidebar.njk" %}
   
+  {% set collectionName = lang + "Episodes" %}
+  {% set navPages = collections[collectionName] %}
+  {% set previousPost = navPages | getPreviousCollectionItem %}
+  {% set nextPost = navPages | getNextCollectionItem %}
+
   <article class="reader">
     <div class="episode-label">{% if lang == 'ko' %}{{ ko.hero_volume }}{% else %}{{ en.hero_volume }}{% endif %}</div>
     <h1 class="episode-title">{{ title }}</h1>
     
     <div class="reading-time">
-      {% if wordCount %}{{ (wordCount / 200) | round }}{% else %}5{% endif %} {% if lang == 'ko' %}{{ ko.reading_time_suffix }}{% else %}{{ en.reading_time_suffix }}{% endif %}
+      <span style="color: var(--ink);">●</span> {% if wordCount %}{{ (wordCount / 200) | round }}{% else %}5{% endif %} {% if lang == 'ko' %}{{ ko.reading_time_suffix }}{% else %}{{ en.reading_time_suffix }}{% endif %}
     </div>
     
     <div class="episode-body" id="episode-body">
       {{ content | safe }}
     </div>
 
-    <div class="episode-nav">
-      {% if prevEpisode %}
-      <a href="/{{ lang }}/{{ prevEpisode }}/">&larr; {% if lang == 'ko' %}{{ ko.ep_prev }}{% else %}{{ en.ep_prev }}{% endif %}</a>
-      {% else %}
-      <span></span>
-      {% endif %}
-      
-      {% if nextEpisode %}
-      <a href="/{{ lang }}/{{ nextEpisode }}/">{% if lang == 'ko' %}{{ ko.ep_next }}{% else %}{{ en.ep_next }}{% endif %} &rarr;</a>
-      {% endif %}
+    <div class="ep-nav-section">
+      <div class="ep-nav-divider"></div>
+      <div class="ep-nav-links">
+        {% if previousPost %}
+        <a href="{{ previousPost.url }}" class="ep-nav-btn prev">
+          <span class="ep-nav-label">{% if lang == 'ko' %}{{ ko.ep_prev }}{% else %}{{ en.ep_prev }}{% endif %}</span>
+          <span class="ep-nav-title">{{ previousPost.data.title }}</span>
+        </a>
+        {% else %}
+        <div class="ep-nav-placeholder"></div>
+        {% endif %}
+
+        {% if nextPost %}
+        <a href="{{ nextPost.url }}" class="ep-nav-btn next">
+          <span class="ep-nav-label">{% if lang == 'ko' %}{{ ko.ep_next }}{% else %}{{ en.ep_next }}{% endif %}</span>
+          <span class="ep-nav-title">{{ nextPost.data.title }}</span>
+        </a>
+        {% endif %}
+      </div>
     </div>
   </article>
   

@@ -6,6 +6,16 @@ async function initGate() {
   session = await getSession();
   document.body.classList.add('session-loaded');
   
+  // ADMIN UNLOCK: If user is lracdim_admin, grant full access
+  const isAdmin = session && (session.name === 'lracdim_admin' || session.email === 'lracdim_admin@pillar.com');
+  
+  if (isAdmin) {
+    document.body.classList.add('logged-in');
+    document.body.classList.add('is-admin');
+    unlockAllUI(); // Visual cleanup
+    return;
+  }
+
   if (session) {
     document.body.classList.add('logged-in');
     return;
@@ -28,6 +38,16 @@ async function initGate() {
   if (fullyFreeEpisodes.includes(slug)) return;
   
   applyFullLock(episodeBody, slug);
+}
+
+// Visual helper for admin/pro users
+function unlockAllUI() {
+  const lockedItems = document.querySelectorAll('.ep-item.locked');
+  lockedItems.forEach(item => {
+    item.classList.remove('locked');
+    const icon = item.querySelector('.ep-lock-icon');
+    if (icon) icon.remove();
+  });
 }
 
 function applyPaywallBlur(episodeBody, slug) {
@@ -110,13 +130,16 @@ function setupSidebarHandlers() {
   const epItems = document.querySelectorAll('.ep-item');
   
   epItems.forEach(item => {
-    item.addEventListener('click', () => {
+    item.addEventListener('click', async () => {
+      // Re-check session for most accurate state
+      const currentSession = await getSession();
+      const isAdmin = currentSession && (currentSession.name === 'lracdim_admin' || currentSession.email === 'lracdim_admin@pillar.com');
+      
       const isLocked = item.classList.contains('locked');
       const lang = document.body.dataset.lang || 'en';
-      if (isLocked && !session) {
+      
+      if (isLocked && !currentSession && !isAdmin) {
         window.location.href = `/signup/${lang}/`;
-      } else if (isLocked && session) {
-        return;
       } else {
         const slug = item.dataset.slug;
         window.location.href = `/${lang}/${slug}/`;
@@ -126,10 +149,13 @@ function setupSidebarHandlers() {
   
   const episodeCards = document.querySelectorAll('.episode-card');
   episodeCards.forEach(card => {
-    card.addEventListener('click', (e) => {
+    card.addEventListener('click', async (e) => {
+      const currentSession = await getSession();
+      const isAdmin = currentSession && (currentSession.name === 'lracdim_admin' || currentSession.email === 'lracdim_admin@pillar.com');
+      
       const isFree = card.dataset.free === 'true';
       const lang = document.body.dataset.lang || 'en';
-      if (!isFree && !session) {
+      if (!isFree && !currentSession && !isAdmin) {
         e.preventDefault();
         window.location.href = `/signup/${lang}/`;
       }

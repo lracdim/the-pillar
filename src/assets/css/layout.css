@@ -355,36 +355,46 @@
 
   .main-layout {
     flex-direction: row;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
+    gap: 0;
   }
 
   .sidebar {
     display: block;
-    width: 220px;
+    width: 260px;
     flex-shrink: 0;
-    padding: 24px 16px;
+    padding: 32px 24px;
     border-right: 0.5px solid var(--border-dim);
+    height: calc(100vh - 56px);
+    position: sticky;
+    top: 56px;
+    overflow-y: auto;
   }
 
   .reader {
     flex: 1;
-    max-width: 620px;
-    padding: 32px 24px;
+    max-width: 680px;
+    padding: 40px 48px;
+    margin: 0 auto;
   }
 
   .right-panel {
     display: block;
-    width: 200px;
+    width: 260px;
     flex-shrink: 0;
-    padding: 24px 16px;
+    padding: 32px 24px;
     border-left: 0.5px solid var(--border-dim);
+    height: calc(100vh - 56px);
+    position: sticky;
+    top: 56px;
+    overflow-y: auto;
   }
 }
 
-@media (min-width: 1200px) {
-  .reader {
-    max-width: 680px;
+@media (min-width: 1400px) {
+  .main-layout {
+    max-width: 1300px;
   }
 }
 

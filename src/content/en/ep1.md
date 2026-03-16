@@ -547,16 +547,10 @@ He watched the gates getting closer.
 
 
 
+
 *And then, because he was who he was —*
-
-
 
 *He would pick up the brush.*
 
 *And begin to learn.*
 
-────────────────────────────
-
-*— End of Episode 1 —*
-
-*Next: Episode 2 · "What the Brush Teaches"*
