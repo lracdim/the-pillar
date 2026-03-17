@@ -6,11 +6,13 @@
     "published": true,
     "titles": {
       "ko": "바둑과 구씨",
-      "en": "The Go and the Gu"
+      "en": "The Go and the Gu",
+      "tl": "Ang Go at si Gu"
     },
     "excerpt": {
       "ko": "소년에게는 지킬 이름이 없었다. 마을 사람들은 그를 고아라고 불렀다.",
-      "en": "The boy had no name worth keeping. The village called him Orphan, which was not a name at all."
+      "en": "The boy had no name worth keeping. The village called him Orphan, which was not a name at all.",
+      "tl": "Ang batang lalaki ay walang pangalang dapat ingatan. Tinawag siyang Ulila ng nayon, na hindi naman talaga pangalan."
     }
   },
   {
@@ -20,11 +22,13 @@
     "published": true,
     "titles": {
       "ko": "바둑판과 말들",
-      "en": "The Go Board and Its Pieces"
+      "en": "The Go Board and Its Pieces",
+      "tl": "Ang Board ng Go at ang mga Piyesa Nito"
     },
     "excerpt": {
       "ko": "바둑은 전쟁의 은유가 아니다. 전쟁은 바둑의 은유다.",
-      "en": "Go is not a metaphor for war. War is a metaphor for Go."
+      "en": "Go is not a metaphor for war. War is a metaphor for Go.",
+      "tl": "Ang Go ay hindi isang metapora para sa digmaan. Ang digmaan ay isang metapora para sa Go."
     }
   },
   {
@@ -34,11 +38,13 @@
     "published": true,
     "titles": {
       "ko": "희생의 대마",
-      "en": "The Great Piece of Sacrifice"
+      "en": "The Great Piece of Sacrifice",
+      "tl": "Ang Dakilang Piyesa ng Sakripisyo"
     },
     "excerpt": {
       "ko": "대마는 죽는 것이 아니다. 대마는 놓치는 것이다.",
-      "en": "The great piece does not die. The great piece is the one that gets lost."
+      "en": "The great piece does not die. The great piece is the one that gets lost.",
+      "tl": "Ang dakilang piyesa ay hindi namamatay. Ang dakilang piyesa ay ang nawawala."
     }
   },
   {
@@ -48,11 +54,13 @@
     "published": true,
     "titles": {
       "ko": "같은 곳에 두 번 치는 번개",
-      "en": "Lightning Strikes the Same Place Twice"
+      "en": "Lightning Strikes the Same Place Twice",
+      "tl": "Ang Kidlat ay Tumatama sa Iisang Lugar Nang Dalawang Beses"
     },
     "excerpt": {
       "ko": "천둥은 같은 곳에 두 번 치지 않는다라고 사람들은 말한다. 그들은 틀렸다.",
-      "en": "They say lightning never strikes the same place twice. They are wrong."
+      "en": "They say lightning never strikes the same place twice. They are wrong.",
+      "tl": "Sinasabi nilang ang kidlat ay hindi tumatama sa iisang lugar nang dalawang beses. Sila ay mali."
     }
   },
   {
@@ -62,11 +70,13 @@
     "published": true,
     "titles": {
       "ko": "왕실의 피 노예",
-      "en": "The Royal Blood Slave"
+      "en": "The Royal Blood Slave",
+      "tl": "Ang Alipin ng Maharlikang Dugo"
     },
     "excerpt": {
       "ko": "기대할 것이 없을 때 하는 사랑이 있다. 이미 사라진 것에 모든 것을 쏟아붓는 사랑.",
-      "en": "There is a kind of love that spends itself completely on something that is already gone."
+      "en": "There is a kind of love that spends itself completely on something that is already gone.",
+      "tl": "May isang uri ng pag-ibig na ibinibigay ang lahat sa isang bagay na wala na."
     }
   }
 ]

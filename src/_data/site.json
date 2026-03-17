@@ -6,5 +6,5 @@
   "ogImage": "/assets/img/og-image.jpg",
   "twitterHandle": "",
   "defaultLang": "ko",
-  "availableLangs": ["ko", "en"]
+  "availableLangs": ["ko", "en", "tl"]
 }

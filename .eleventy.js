@@ -12,8 +12,8 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter("t", function(key) {
-    const lang = this.ctx.lang || "ko";
+  eleventyConfig.addFilter("t", function(key, langOverride) {
+    const lang = langOverride || this.ctx.lang || "ko";
     const strings = this.ctx[lang] || {};
     return strings[key] || key;
   });
@@ -25,6 +25,11 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("enEpisodes", col =>
     col.getFilteredByGlob("src/content/en/ep*.md")
+       .sort((a, b) => a.data.episode - b.data.episode)
+  );
+
+  eleventyConfig.addCollection("tlEpisodes", col =>
+    col.getFilteredByGlob("src/content/tl/ep*.md")
        .sort((a, b) => a.data.episode - b.data.episode)
   );
 

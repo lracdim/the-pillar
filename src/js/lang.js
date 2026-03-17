@@ -17,13 +17,31 @@ function setCookie(name, value, days) {
 function detectBrowserLang() {
   const lang = navigator.language || navigator.userLanguage;
   if (lang.startsWith('ko')) return 'ko';
+  if (lang.startsWith('tl') || lang.startsWith('fil')) return 'tl';
   return 'en';
 }
 
+function getLangFromUrl() {
+  const path = window.location.pathname;
+  const match = path.match(/^\/(ko|en|tl)\//);
+  if (match) return match[1];
+  const matchShort = path.match(/^\/(ko|en|tl)$/);
+  if (matchShort) return matchShort[1];
+  return null;
+}
+
 function initLang() {
+  const urlLang = getLangFromUrl();
   let savedLang = getCookie(COOKIE_NAME);
   
-  if (!savedLang) {
+  if (urlLang) {
+    // If URL has a language, synchronize cookie and use it
+    if (savedLang !== urlLang) {
+      setCookie(COOKIE_NAME, urlLang, COOKIE_DAYS);
+    }
+    savedLang = urlLang;
+  } else if (!savedLang) {
+    // If no cookie and no URL lang, detect and set cookie
     savedLang = detectBrowserLang();
     setCookie(COOKIE_NAME, savedLang, COOKIE_DAYS);
   }
@@ -43,13 +61,12 @@ function setupLangDropdown() {
     setCookie(COOKIE_NAME, newLang, COOKIE_DAYS);
     
     let currentPath = window.location.pathname;
+    const langRegex = /^\/(ko|en|tl)/;
     
     if (currentPath === '/' || currentPath === '') {
       currentPath = `/${newLang}/`;
-    } else if (currentPath.match(/^\/(ko|en)\//)) {
-      currentPath = currentPath.replace(/^\/(ko|en)/, `/${newLang}`);
-    } else if (currentPath.match(/^\/(ko|en)$/)) {
-      currentPath = `/${newLang}`;
+    } else if (currentPath.match(langRegex)) {
+      currentPath = currentPath.replace(langRegex, `/${newLang}`);
     } else {
       currentPath = `/${newLang}${currentPath}`;
     }

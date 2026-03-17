@@ -2,7 +2,7 @@ import { functions, FN_INCREMENT } from './appwrite.js';
 
 export async function incrementVisitor(slug) {
   try {
-    // Attempt via function first (cleaner, prevents race conditions)
+    // Attempt via function first
     await functions.createExecution(FN_INCREMENT, JSON.stringify({ slug }));
   } catch (err) {
     console.warn("Function increment failed, trying client-side fallback...");
@@ -63,12 +63,13 @@ export async function updateHomePageStats() {
   const { databases, DB_ID, COL_VISITORS } = await import('./appwrite.js');
   
   try {
-    const result = await databases.listDocuments(DB_ID, COL_VISITORS);
+    const result = await databases.listDocuments(DB_ID, COL_VISITORS, []);
     
-    // Visitors = Total sum of all counts
-    const totalVisitors = result.documents.reduce((sum, doc) => sum + (doc.count || 0), 0);
+    // Visitors = Specifically the count of visits to the landing page
+    const landingDoc = result.documents.find(doc => doc.slug === 'landing');
+    const totalVisitors = landingDoc ? (landingDoc.count || 0) : 0;
     
-    // Readers = Sum of only episodes (slugs starting with 'ep')
+    // Readers = Sum of all episode visits
     const totalReaders = result.documents
       .filter(doc => doc.slug && doc.slug.startsWith('ep'))
       .reduce((sum, doc) => sum + (doc.count || 0), 0);
@@ -89,17 +90,18 @@ export async function updateHomePageStats() {
 
 document.addEventListener('DOMContentLoaded', async () => {
   const slug = document.body.dataset.slug;
-  const lang = document.body.dataset.lang;
+  const isHomepage = slug === '' || !slug;
   
-  if (!slug) {
+  if (isHomepage) {
+    // Record visit as 'landing' for homepage
+    await incrementVisitor('landing');
     await updateHomePageStats();
     return;
   }
   
-  const isHomepage = slug === '' || slug === 'about' || slug === 'characters';
-  
-  if (isHomepage) {
-    await updateHomePageStats();
+  const isUtility = slug === 'about' || slug === 'characters';
+  if (isUtility) {
+    await updateHomePageStats(); 
     return;
   }
   

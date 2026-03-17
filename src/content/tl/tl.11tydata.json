@@ -1,0 +1,5 @@
+{
+  "lang": "tl",
+  "layout": "reader.njk",
+  "permalink": "/tl/{{ slug }}/"
+}

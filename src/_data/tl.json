@@ -1,0 +1,52 @@
+{
+  "nav_read": "Basahin",
+  "nav_about": "Tungkol",
+  "nav_characters": "Mga Karakter",
+  "nav_signin": "Mag-sign in",
+  "nav_signup": "Gumawa ng Account",
+  "nav_signout": "Mag-sign out",
+
+  "lang_select_label": "Wika",
+  "lang_ko": "🇰🇷 Korean",
+  "lang_en": "🇺🇸 English",
+  "lang_tl": "🇵🇭 Tagalog",
+
+  "hero_volume": "Volume I",
+  "hero_subtitle": "Ang Taong Umuyog sa Buong Kaharian",
+  "stat_readers": "Mga Mambabasa",
+  "stat_visitors": "Mga Bisita",
+  "stat_episodes": "Mga Episode",
+  "stat_kingdoms": "Mga Kaharian",
+
+  "sidebar_episodes": "Mga Episode",
+  "sidebar_locked": "Naka-lock",
+  "sidebar_free_preview": "Libreng Preview",
+
+  "gate_title": "Nais mo bang ituloy ang pagbabasa?",
+  "gate_subtitle": "Gumawa ng libreng account upang ma-unlock ang lahat ng episode ng The Pillar.",
+  "gate_cta_signup": "Gumawa ng libreng account",
+  "gate_cta_signin": "Mag-sign in",
+
+  "auth_join_title": "Sumali sa Kwento",
+  "auth_join_subtitle": "Libre. Walang Ad. Purong Nobela.",
+  "auth_name_label": "Pangalan",
+  "auth_email_label": "Email",
+  "auth_password_label": "Password",
+  "auth_signup_btn": "Gumawa ng Account",
+  "auth_signin_btn": "Mag-sign in",
+  "auth_switch_to_signin": "May account na?",
+  "auth_switch_to_signup": "Wala pang account?",
+
+  "comments_title": "Mga Komento",
+  "comments_placeholder": "Mag-iwan ng komento... (3–500 characters)",
+  "comments_post_btn": "I-post",
+  "comments_signin_prompt": "Mag-sign in upang mag-iwan ng komento",
+  "comments_empty": "Wala pang komento. Maging unang mambabasa na magkomento.",
+  "comments_loading": "Loading ng mga komento...",
+
+  "visitor_label": "Mga View",
+  "reading_time_suffix": "min na pagbabasa",
+
+  "ep_prev": "Nakaraang Episode",
+  "ep_next": "Susunod na Episode"
+}
