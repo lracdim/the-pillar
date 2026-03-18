@@ -5,510 +5,329 @@ lang: tl
 title: "Ang Go at si Gu"
 titleRomanized: "The Go and the Gu"
 volume: 1
-wordCount: 3200
+wordCount: 3300
 published: true
 date: 2024-01-15
-excerpt: "Ang bata ay walang pangalang dapat ingatan. Tinawag siyang 'Ulila' ng nayon, na hindi naman talaga isang pangalan."
+excerpt: "May mga umaga sa Hanyang na amoy hamog ng ilog at malamig na uling. Si Nam Jung Hae ay labindalawang taong gulang sa isa sa mga umagang iyon."
 ---
 
-Ang Go at si Gu
+---
 
-( Go — ang laro ng mga bato / Gu — ang pangalan ng isang hari )
+# VOLUME I: Ang Go at si Gu
+*(Go — ang laro ng mga bato / Gu — ang pangalan ng isang hari)*
 
-*May isang uri ng katalinuhan*
+*May isang uri ng katalinuhan*  
+*na hindi naghahayag ng sarili.*  
+*Nagmamatyag lamang ito.*  
+*At naghihintay.*  
+*At alam na ang katapusan*  
+*bago mo pa man mapagpasyahang magsimula.*
 
-*na hindi nagpapakilala.*
-
-*Pinagmamasdan lang nito ang lahat.*
-
-*At naghihintay.*
-
-*At alam na nito ang katapusan*
-
-*bago ka pa man magdesisyong magsimula.*
-
-────────────────────────────
+---
 
 ### **Bahagi I. Kayamanan sa Landas**
-
-May mga umaga sa Hanyang na amoy hamog ng ilog at malamig na uling, at sa mga umagang iyon ang ibabang palengke ay nagbubukas sa paraang ginagawa ng lahat ng pagod na bagay — dahan-dahan, walang seremonya, dahil lamang sa ang paghinto ay hindi isang opsyon.
+May mga umaga sa Hanyang na kababakasan ng amoy ng hamog mula sa ilog at malamig na uling. Sa mga naturang umaga, ang mababang pamilihan ay nagbubukas sa paraang ginagawa ng lahat ng pagod na bagay—mabagal, walang seremonya, sa payak na dahilan na ang paghinto ay hindi isang opsyon.
 
 Si Nam Jung Hae ay labindalawang taong gulang sa isa sa mga umagang iyon.
 
-Nakaupo siya sa sulok ng palengke kung saan manipis ang daloy ng tao — hindi sa gitna kung saan malakas ang ingay at malayang dumadaloy ang mga barya, kundi doon sa kung saan nakasalansan ang mga lumang sako ng butil at wala nang mangangalakal ang nag-abala pang kunin ang espasyo. Natutunan niya, sa loob ng dalawang taon nito, na mas mabuti ang sulok. Ang mga taong napapadpad sa sulok ay mausisa. Ang mga mausisang tao ay nananatili nang mas matagal. Ang pananatili nang mas matagal ay nangangahulugan ng mas maraming batong nailalagay. Mas maraming batong nailalagay ay nangangahulugan ng mas maraming pagkain.
+Nakaupo siya sa isang sulok ng pamilihan kung saan madalang ang mga tao—hindi sa gitna kung saan nakabibingi ang ingay at malayang dumadaloy ang mga barya, kundi doon sa mga bunton ng lumang sako ng ngũ ngũ at wala nang mangangalakal ang nag-abalang umangkin sa puwang. Natutuhan niya, sa loob ng dalawang taon ng ganitong buhay, na mas mainam ang sulok. Ang mga taong napapadpad sa gilid ay mga mausisa. Ang mga taong mausisa ay nananatili nang mas matagal. Ang pananatili nang matagal ay nangangahulugan ng mas maraming batong nailalagay. Ang mas maraming batong nailalagay ay nangangahulugan ng mas maraming pagkain.
 
-Inilatag niya ang board ng Go sa isang pinitpit na sako ng butil at naghintay.
+Inilatag niya ang board ng Go sa isang pinitpit na sako at naghintay.
 
-Hindi siya mukhang gutom, bagaman gutom siya. Hindi siya mukhang nag-iisa, bagaman ang salitang iyon ay matagal na ring nawalan ng kahulugan sa kanya. Nagmukha siyang, sa mga nakapansin sa kanya, tulad ng isang batang sadyang at ganap na panatag sa mundong kanyang kinalalagyan.
+Hindi siya mukhang gutom, bagaman siya ay gutom na gutom. Hindi siya mukhang nag-iisa, bagaman ang salitang iyon ay matagal nang nawalan ng saysay sa kanya. Sa mga nakapapansin sa kanya, mukha siyang isang batang sadyang panatag sa mundong kanyang kinalalagyan.
 
 Hindi iyon isang aksidente.
 
-Natutunan ni Jung Hae nang maaga na ang mga tao ay hindi nagbibigay ng barya sa kawalan ng pag-asa. Nagbibigay sila ng barya sa kahusayan. Kaya naupo siya nang tuwid. Inayos niya ang mga bato nang malinis, walang pagmamadali ang bawat galaw. Tumingin siya sa board at hindi sa karamihan, na siyang ayos ng isang taong hindi ka kailangan — at ang mga tao, natuklasan niya, ay laging mas naaakit sa isang taong hindi sila kailangan.
+Maagang natutuhan ni Jung Hae na ang mga tao ay hindi nagbibigay ng barya sa kawalan ng pag-asa; nagbibigay sila ng barya sa kahusayan. Kaya naman, naupo siya nang tuwid. Inayos niya ang mga bato sa malinis at banayad na mga galaw. Itinuon niya ang kanyang paningin sa board sa halip na sa madla—ang tindig ng isang taong hindi nangangailangan sa iyo. Ang mga tao, ayon sa kanyang natuklasan, ay laging mas naaakit sa mga taong hindi sila kailangan.
 
 Labindalawang taong gulang siya. Naunawaan niya ito sa edad na sampu.
 
-Ang unang lalaking naupo noong umagang iyon ay isang katulong ng mangangalakal — bata, naiinip, taglay ang partikular na kumpiyansa ng isang taong sinabihan minsan na siya ay matalino. Naglagay siya ng isang baryang tanso sa gilid ng board nang hindi tumitingin sa mukha ni Jung Hae.
+Ang unang lalaking naupo noong umagang iyon ay isang katulong ng mangangalakal—bata, naiinip, at taglay ang partikular na kumpyansa ng isang taong minsan nang nasabihan na siya ay matalino. Naglagay siya ng isang tansong mun sa gilid ng board nang hindi tumitingin sa mukha ni Jung Hae.
 
-"Lalaruin kita. Kung manalo ka, sayo na ang barya. Kung ako ang manalo, kukunin ko ang board."
+"Lalaruin kita," wika ng lalaki. "Kung manalo ka, sa iyo na ang barya. Kung ako ang manalo, kukunin ko ang board."
 
-Tiningnan ni Jung Hae ang barya. Pagkatapos ay sa board. Pagkatapos ay sa mga kamay ng katulong ng mangangalakal — ang paraan ng pagkakalagay ng mga ito sa kanyang mga tuhod, ang anggulo ng mga daliri, ang kawalan ng anumang kalyo mula sa pagtatrabaho.
+Tiningnan ni Jung Hae ang barya, pagkatapos ay ang board, at ang mga kamay ng katulong—ang paraan ng pagkakalagay ng mga ito sa kanyang tuhod, ang anggulo ng kanyang mga daliri, at ang kawalan ng anumang kalyo mula sa paghawak ng bato. Ang taong ito ay hindi pa nakapaglaro ng seryosong laro sa kanyang buong buhay.
 
-Hindi pa siya nakakapaglaro ng totoong laro sa buong buhay niya.
-
-"Ang isang barya ay hindi katumbas ng board na ito," sabi ni Jung Hae.
+"Ang isang barya ay hindi sapat na kabayaran para sa board na ito," ani Jung Hae.
 
 "Kung gayon, sabihin mo ang iyong mga kondisyon."
 
-"Maglalaro ka. Kung manalo ako, tatlong barya. Kung manalo ka, ang board at isang barya pabalik."
+"Maglaro tayo. Kung manalo ako, tatlong barya. Kung manalo ka, sa iyo na ang board at ibabalik ko ang iyong barya."
 
-Sumang-ayon ang katulong. Dahil ang mga kabataang lalaki na may hiram na kumpiyansa ay bihirang mo-atras sa harap ng maraming tao, at alam na ni Jung Hae na sasang-ayon siya bago pa man niya matapos ang pangungusap.
+Sumang-ayon ang katulong. Ang mga kabataang may hiram na kumpyansa ay bihirang umurong sa harap ng madla, at batid na ni Jung Hae na papayag ito bago pa man matapos ang kanyang pangungusap.
 
-Natalo siya sa unang laro nang sadya — hindi halata, hindi mapang-insulto, kundi sa paraang mag-iiwan sa isang tao ng pakiramdam na muntik na niya itong makuha. Isang malapit na laban. Ang katulong ay yumuko paharap sa ikatlong galaw pa lang. Sa ikapitong galaw ay nagsasalita na siya nang malakas. Sa ikalabinlimang galaw ay ganap na siyang abala sa isang bersyon ng laro na napagpasyahan na ni Jung Hae ang hugis.
+Sadyang nagpatalo siya sa unang laro—hindi sa paraang halata o mapang-insulto, kundi sa paraang mag-iiwan sa lalaki ng pakiramdam na muntik na siyang may makamit. Isang muntik na tagumpay. Isang "sana-ay-nangyari." Yumuko ang katulong sa ikatlong galaw pa lamang. Sa ikapito, nagsasalita na siya nang malakas. Sa ikalabinlima, ganap na siyang nahulog sa bitag ng bersyon ng laro na una nang itinakda ni Jung Hae.
 
-Nanalo si Jung Hae sa ikalawang laro sa loob lamang ng labing-isang galaw.
+Napanalunan ni Jung Hae ang ikalawang laro sa loob lamang ng labing-isang galaw.
 
-Nag-iwan ang katulong ng tatlong barya sa gilid ng board — isa na higit sa napagkasunduan. Hiya at pagkabukas-palad sa iisang kilos. Nakita na ito ni Jung Hae noon. Inilagay niya ang tatlong barya sa telang supot sa kanyang sinturon at nagsimulang ayusin muli ang mga bato, habang binabantayan na ang karamihan para sa susunod na manlalaro.
-
-✦
+Nag-iwan ang katulong ng tatlong barya sa gilid ng board—labis ng isa sa napagkasunduan. Isang kilos na bunga ng pinaghalong hiya at pagkabukas-palad. Nakita na ito ni Jung Hae noon. Inilagay niya ang lahat ng tatlong barya sa supot na tela sa kanyang baywang at nagsimulang muling ayusin ang mga bato, habang binabantayan ang madla para sa susunod na katunggali.
 
 ### **Bahagi II. Nam Jung Hae**
+Ang lalaking nakasuot ng kulay-abong balabal ay lumitaw sa ikaapat na oras.
 
-Ang lalaking naka-abong damit ay lumitaw sa ikapat na oras.
+Napansin siya ni Jung Hae sa paraang napapansin niya ang lahat ng bagay—sa gilid ng kanyang paningin, nang hindi nililingon ang ulo. Ang lalaki ay nakatayo sa sulok ng tindahan ng tela sa tapat nang may dalawampung minuto na. Hindi siya namimili, at hindi rin siya may hinihintay. Pinagmamasdan niya ang board ng Go.
 
-Napansin siya ni Jung Hae sa paraang napapansin niya ang karamihan sa mga bagay — sa gilid ng kanyang paningin, nang hindi lumingon ang kanyang ulo. Ang lalaki ay nakatayo sa sulok ng stall ng tela sa tapat nang marahil dalawampung minuto na. Hindi siya namimili. Hindi siya naghihintay sa kahit sino. Pinagmamasdan niya ang board ng Go.
+Hindi niya pinagmamasdan si Jung Hae. Pinagmamasdan niya ang board.
 
-Hindi pinagmamasdan si Jung Hae.
+Iba iyon. Karamihan sa mga tao ay pinagmamasdan si Jung Hae—ang maliit at tuwid na batang may seryosong mukha at tsinelas na yari sa lubid. Pinagmamasdan nila siya dahil siya ay isang kakatwang tanawin. Ngunit ang lalaking ito ay nagmamasid sa paraan ng isang taong nauunawaan na ang kanyang titiingnan at nagpapasya na lamang kung ano ang gagawin dito.
 
-Kundi ang board.
+Kawili-wili iyon.
 
-Iba iyon. Karamihan sa mga tao ay pinagmamasdan si Jung Hae — ang maliit, tuwid na batang may seryosong mukha at mga tsinelas na nakatali ng lubid. Pinagmamasdan nila siya dahil siya ang kakatwa. Pinagmamasdan ng lalaking ito ang board sa paraang pinagmamasdan mo ang isang bagay na nauunawaan mo na at nagpapasya ka kung ano ang gagawin dito.
+Nang sa wakas ay lumapit ang lalaki at naupo, binasa siya ni Jung Hae sa loob lamang ng tatlong paghinga.
 
-Interesante iyon.
+Siya ay limampung taong gulang, o marahil ay higit pa. Matikas ang kanyang panga at sentido. Ang kanyang mga kamay ay walang bakas ng pisikal na paggawa—hindi siya mangangalakal, sundalo, o panday. Ang kanyang balabal ay payak ang kulay, ngunit ang pagkakahabi nito ay masinsin at pino—ang uri ng kapayakan na mas mahal pa kaysa sa mga palamuti. Ang paraan ng kanyang pag-upo ay may taglay na katangian: hindi lamang kaginhawaan, kundi kontrol. Ito ang sadyang pagkakaayos ng isang taong laging batid kung paano niya sinasakop ang espasyo.
 
-Nang tumawid siya at maupo, binasa siya ni Jung Hae sa loob lamang ng tatlong paghinga.
+At ang kanyang mga mata—nang sa wakas ay lumingon ang mga ito mula sa board patungo sa mukha ni Jung Hae, mayroon itong talim ng pagsusuri. Tiyak ang mga ito at hindi nagmamadali—ang uri ng tingin na kumakalap ng impormasyon at nag-iimbak nito nang walang anumang reaksyon.
 
-Limampu, marahil medyo mas matanda pa. Payat ang panga at mga templo. Ang mga kamay ay walang marka ng anumang pisikal na paggawa — hindi isang mangangalakal, hindi isang sundalo, hindi isang manggagawa. Ang kanyang balabal ay payak ang kulay ngunit ang habi ay siksik at pino, ang uri ng kapayakan na mas mahal kaysa sa dekorasyon. Ang paraan ng kanyang pagkakalagay sa sarili ay may partikular na kalidad — hindi lamang ginhawa, kundi kontrol. Ang sadyang pagsasaayos ng isang taong laging mulat kung paano niya sinasakop ang espasyo.
+Nakita na ni Jung Hae ang gayong tingin sa mga mahistrado—mga lalaking nagpapasya sa kapalaran ng iba.
 
-At ang kanyang mga mata. Nang sa wakas ay lumipat ang mga ito mula sa board patungo sa mukha ni Jung Hae, mayroon silang kalidad ng pagsusuri — tumpak, hindi nagmamadali, ang uri ng tingin na kumukuha ng impormasyon at nag-iimbak nito nang walang reaksyon.
+Isang mataas na opisyal, sa loob-loob niya. Isang taong may kapangyarihan. Isang taong sanay sa mga silid kung saan ang mga tao ay nag-iingat sa kanyang paligid.
 
-Nakita na ni Jung Hae ang tingin na iyon noon. Sa mga mahistrado. Sa mga lalaking nagpapasya ng mga bagay para sa ibang tao.
+Isinantabi niya ang kaalamang ito at naghintay. Hindi naglapag ng barya ang lalaki. Naupo lamang siya, inayos ang kanyang kasuotan, at nagsabi—nang walang pagpapakilala:
 
-Isang mataas na opisyal ng kung anong uri, naisip niya. Isang taong may awtoridad. Isang taong sanay sa mga silid kung saan ang mga tao ay maingat sa paligid niya.
+"Ang iyong teritoryo sa sulok ay kulang sa proteksyon."
 
-Itinabi niya ang impormasyong ito at naghintay.
+"Alam ko po," tugon ni Jung Hae.
 
-Ang lalaki ay hindi naglagay ng barya.
+"Kung gayon, bakit mo ito hinayaang ganyan?"
 
-Naupo lamang siya, inayos ang kanyang mga balabal, at nagsabi — nang walang pagpapakilala —
+"Dahil ang lalaking kalaro ko ay hindi kailanman tumitingin sa mga sulok. Ang mga katulad niya ay tumitingin lamang sa gitna; inaakala nilang ang kontrol ay matatagpuan sa sentro." Tahimik na naglapag si Jung Hae ng isang bato. "Kaya naman, ibinibigay ko sa kanila ang gitna at kinukuha ko ang lahat ng nakapaligid dito."
 
-"Ang teritoryo mo sa sulok ay kulang sa proteksyon."
+Nanatiling tahimik ang lalaki sandali. "Binabasa mo ang iyong mga kalaban."
 
-"Alam ko po," sabi ni Jung Hae.
+"Binabasa ko ang lahat," simpleng sagot ni Jung Hae. "Mas mabilis ito kaysa sa pagbasa sa board."
 
-"Kung gayon, bakit mo ito hinayaan?"
+Tiningnan siya ng lalaki nang diretso, sa paraang bihirang gawin ng mga matatanda sa mga bata sa mababang pamilihan. "Ano ang iyong pangalan?"
 
-"Dahil ang lalaking kalaro ko ay hindi kailanman tumitingin sa mga sulok. Ang uri niya ay tumitingin sa gitna. Iniisip nila na ang kontrol ay tungkol sa gitna." Tahimik na naglapag si Jung Hae ng isang bato. "Kaya ibinibigay ko sa kanila ang gitna at kinukuha ko ang lahat ng nasa paligid nito."
+"Nam Jung Hae po."
 
-Ang lalaki ay nanatiling tahimik sandali.
+"Nam." Inulit ng lalaki ang apelyido nang may katatagan, nang walang reaksyon. Pagkatapos, "Ang aking pangalan ay Gu."
 
-"Binabasa mo ang iyong mga kalaban."
+Tumango nang minsan si Jung Hae bilang pagtanggap ng impormasyon, hindi bilang pakikipag-usap. Inabot ng lalaki at inilagay ang unang itim na bato ng isang bagong laro.
 
-"Binabasa ko po ang lahat," simpleng sabi ni Jung Hae. "Mas mabilis ito kaysa sa pagbasa ng board."
+Tiningnan ni Jung Hae kung saan ito lumapag, pagkatapos ay sa mukha ng lalaki, at muli sa bato. Kumuha siya ng puting bato at inilatag ito. At sa katahimikan, nang walang ipinapakita, nagsimula siyang magbasa.
 
-Tiningnan siya ng lalaki. Ng buo, sa paraang bihirang tumingin ang mga matatanda sa mga bata sa ibabang palengke.
+### **Bahagi III. Pagkatalo**
+Sa unang laro, natalo si Jung Hae.
 
-"Ano ang iyong pangalan?"
+Natalo siya nang tapat—hindi dahil sa kawalan ng ingat o sinadyang disenyo. Ang lalaki sa kanyang tapat ay naglaro sa paraang hindi pa nararanasan ni Jung Hae, at ang pagiging bago nito ay parang pagtatangkang magbasa ng isang pangungusap sa isang wikang tila alam niya ngunit hindi pa lubos. Nauunawaan niya ang ilang salita, ngunit hindi ang balarila. Hindi pa sa ngayon.
 
-"Nam Jung Hae."
+Ngunit natututuhan niya ito sa real-time.
 
-"Nam." Inulit niya ang apelyido nang matatag, walang reaksyon. Pagkatapos — "Ang pangalan ko ay Gu."
+Bawat batong inilagay ng lalaki ay isang pangungusap. Binasa ni Jung Hae ang bawat isa—hindi lamang para sa silbi nito sa board, kundi para sa kung ano ang isinisiwalat nito tungkol sa isip sa likod nito. Nakita niya ang pagtitiis at ang pagtitipid. Nakita niya kung paano ginamit ang sakripisyo hindi bilang isang desperadong hakbang, kundi bilang isang arkitektura—ang pagbuo ng isang bagay gamit ang mga puwang na naiwan sa halip na ang mga batong inilagay sa harap.
 
-Tumango si Jung Hae nang minsan. Resibo, hindi pag-uusap.
+Sa ikalabindalawang galaw, naunawaan na ni Jung Hae ang pangunahing istruktura ng wika. Sa ikalabinwalo, natukoy na niya ang balarila.
 
-Inabot ng lalaki at inilagay ang unang itim na bato ng isang bagong laro.
+Natalo siya sa laro, ngunit ang pakiramdam niya ay parang isang mag-aaral na nakatapos ng isang aralin—hindi talunan, kundi puno ng kaalaman. Naupo siya nang tahimik pagkatapos, pinaiikot ang isang puting bato sa kanyang mga daliri, habang pinagmumunihan ang biyayang katatanggap lamang niya.
 
-Tiningnan ni Jung Hae kung saan ito bumagsak. Tiningnan niya ang mukha ng lalaki. Tumingin siya pabalik sa bato.
+Naglapag ang lalaki ng isang silay na yang sa gilid ng board nang matapos ang laro.
 
-Kumuha siya ng isang puting bato at inilagay ito.
+"Para sa laro," wika niya.
 
-At tahimik, nang hindi ipinapakita, nagsimula siyang magbasa.
+"Kayo po ang nanalo," paalala ni Jung Hae.
 
-✦
+"Oo. Ngunit naglaro ka nang may katapatan." Tumayo ang lalaki at inayos ang kanyang balabal. "Babalik ako bukas."
 
-### **Bahagi III. Natalo**
+Umalis siya nang hindi naghihintay ng tugon. Pinanood siya ni Jung Hae na lumayo—napansin kung paano kusang tumatabi ang madla para sa kanya nang hindi siya nasasagi, at kung paano maging ang mga estranghero ay nagbibigay ng daan nang hindi inuutusan.
 
-Ang unang laro, natalo si Jung Hae.
+Naisip niya: Ang lalaking ito ay sanay na maging pinakamahalagang tao sa anumang silid.
 
-Natalo siya nang tapat — hindi dahil sa kawalan ng ingat, hindi dahil sa disenyo. Ang lalaki sa harap niya ay naglaro sa paraang hindi pa nakatagpo ni Jung Hae noon, at ang pagiging bago nito ay parang pagsubok na magbasa ng isang pangungusap sa isang wika na halos alam na niya. Nauunawaan niya ang ilan sa mga salita. Hindi ang gramatika. Hindi pa ngayon.
+Naisip niya: Nagtataka ako kung ano ang nais niya sa akin.
 
-Ngunit natututunan niya ito sa real time.
+Naisip niya: Malalaman ko rin bago matapos ang linggong ito.
 
-Bawat batong inilalagay ng lalaki ay isang pangungusap. Binasa ni Jung Hae ang bawat isa — hindi lang para sa kung ano ang ginagawa nito sa board, kundi para sa kung ano ang sinasabi nito tungkol sa isip sa likod nito. Ang pasensya. Ang ekonomiya. Ang paraan kung paano ginagamit ang sakripisyo hindi bilang kawalan ng pag-asa kundi bilang arkitektura — pagtatayo ng isang bagay gamit ang mga puwang na naiwan kaysa sa mga batong nailagay paharap.
+Kinuha niya ang silay na yang at muling inayos ang mga bato.
 
-Sa ikalabindalawang galaw ay naunawaan na ni Jung Hae ang pangunahing istruktura ng wika.
-
-Sa ikalabing-walo ay natukoy na niya ang gramatika.
-
-Natalo siya sa laro, ngunit natalo siya sa paraang natatapos ng isang estudyante ang isang aralin — hindi talunan, kundi puno. Naupo siya nang tahimik pagkatapos at pinaikot-ikot ang isang puting bato sa kanyang mga daliri at naisip ang tungkol sa kung ano ang kabibigay lang sa kanya.
-
-Naglagay ang lalaki ng isang pilak na yang sa gilid ng board nang matapos ang laro.
-
-"Para sa laro," sabi niya.
-
-"Nanalo po kayo," sabi ni Jung Hae.
-
-"Oo. Ngunit naglaro ka nang tapat." Tumayo siya, inayos ang kanyang balabal. "Babalik ako bukas."
-
-Umalis siya nang hindi naghihintay ng sagot. Pinanood siya ni Jung Hae na umalis — pinanood ang paraan kung paano gumagalaw ang karamihan sa paligid niya nang hindi siya hinahawakan, ang paraan kung paano kahit ang mga estranghero na hindi siya kilala ay nagbibigay ng espasyo nang hindi tinatanong.
-
-Naisip niya: ang lalaking ito ay sanay na maging pinakamahalagang tao sa anumang silid na kanyang pinapasukan.
-
-Naisip niya: iniisip ko kung ano ang gusto niya sa akin.
-
-Naisip niya: malalaman ko sa katapusan ng linggo.
-
-Kinuha niya ang pilak na yang at inayos muli ang mga bato.
-
-✦
-
-### **Bahagi IV. Ang Sunud-sunod na Panalo**
-
+### **Bahagi IV. Ang Sunud-sunod na Pagkapanalo**
 Bumalik ang lalaki kinabukasan. At sa susunod na umaga. At tuwing umaga sa loob ng tatlong linggo.
 
-Laging naka-abong damit. Laging walang pagpapakilala. Laging may banyagang metodo.
+Laging nakasuot ng kulay-abong balabal. Laging walang pagpapakilala. Laging gumagamit ng kakaibang pamamaraan.
 
-Iyon ang unang bagay na napansin ni Jung Hae — at ang pinakamahalaga. Tuwing umaga dumarating ang lalaki at naglalaro nang magkaiba. Hindi random. Sinadya. Na parang ang bawat metodo ay isang hiwalay na pagsubok, isang natatanging tanong na ipinapahayag sa pamamagitan ng wika ng mga bato.
+Iyon ang unang bagay na napansin ni Jung Hae—at ang pinakamahalaga. Tuwing umaga, ang lalaki ay dumarating at naglalaro nang magkaiba. Hindi ito sapalaran, kundi sinadya. Tila ba ang bawat pamamaraan ay isang hiwalay na pagsusulit, isang natatanging tanong na ipinaparating sa pamamagitan ng wika ng mga bato.
 
-Isang umaga naglaro siya nang agresibo, tumutulak mula sa unang galaw, umaangkin ng teritoryo taglay ang kumpiyansa ng isang taong inaasahang susunurin.
+Isang umaga, naglaro siya nang agresibo, nanunulak mula sa unang galaw at umaangkin ng teritoryo taglay ang kumpyansa ng isang taong umaasang susundin. Sa susunod na umaga, naglaro siya nang pasibo—halos tamad—hinahayaan si Jung Hae na malayang lumawak at nagbibigay ng puwang taglay ang katiyakan ng isang taong hindi natatakot mawalan dahil balak naman niya itong bawiin sa isang galaw lamang mamaya. Sa sumunod na umaga, naglaro siya nang may militar na katumpakan—ang parehong arkitektura ng sakripisyo at pagbagsak-mula-sa-loob na ginamit niya noong unang araw.
 
-Kinabukasan naglaro siya nang pasibo — halos tamad — hinahayaan si Jung Hae na malayang lumawak, nagbibigay ng lupa taglay ang kagaanan ng isang taong hindi natatakot mawalan ng espasyo dahil balak niya itong bawiin sa isang galaw na lang mamaya.
+Pagkatapos ay dumating ang bago: isang istilo na walang pangalan si Jung Hae, na nakabatay nang buo sa panlilinlang. Dito, ang tila banta ay hindi kailanman ang tunay na panganib; bawat batong mukhang pag-atake ay, sa katotohanan, isang katanungan tungkol sa isang galaw na tatlong hakbang pa ang layo.
 
-Kinabukasan pagkatapos niyon naglaro siya ng metodong militar — ang arkitektura ng sakripisyo, ang pagbagsak mula sa loob — ang parehong wika noong unang araw.
+Bawat umaga ay may dalang ibang wika.
 
-Pagkatapos ay may bago. Isang istilo na walang pangalan si Jung Hae, binuo nang buo sa maling direksyon, kung saan ang tila banta ay hindi kailanman ang tunay na banta, kung saan ang bawat batong mukhang isang pag-atake ay sa katotohanan ay isang tanong tungkol sa isang bagay na taltong galaw pa sa hinaharap.
-
-Tuwing umaga. Isang magkakaibang wika.
-
-Natalo si Jung Hae sa unang apat na laro.
-
-Natalo siya sa mga ito sa paraang natalo siya sa pinakauna — tapat, ngunit hindi hungkag. Bawat pagkatalo ay isang aralin at tinuring niya itong ganoon: kinakalag ito pagkatapos sa kanyang alaala, itinatayo muli ito bato sa bato, hinahanap ang tahi kung saan ang kanyang pag-unawa ay hindi pa umaabot.
+Natalo si Jung Hae sa unang apat na laro. Natalo siya sa mga ito gaya ng pagkatalo niya noong una—tapat, ngunit hindi hungkag. Bawat pagkatalo ay isang aralin, at itinuring niya itong ganoon: kinakalag ang laro sa kanyang alaala, muling itinatayo ito bato-bato, at hinahanap ang bahaging hindi pa naaabot ng kanyang pag-unawa.
 
 Sa ikalimang umaga, huminto na siya sa pagkatalo.
 
-Hindi dahil master na niya ang mga metodo ng lalaki. Dahil naging master na niya ang isang bagay na mas pundamental kaysa sa metodo. Natutunan niya kung paano mag-isip ang lalaki. Ang arkitektura ng isip sa likod ng mga bato — ang mga halagang hawak nito, ang mga pattern na mas gusto nito, ang paraan kung paano ito tumutugon sa pressure at sa pagiging bukas at sa hindi inaasahan.
+Hindi dahil sa nakabisado na niya ang mga pamamaraan ng lalaki, kundi dahil nakabisado na niya ang isang bagay na mas malalim: natutuhan niya kung paano nag-iisip ang lalaki. Naunawaan niya ang arkitektura ng isip sa likod ng mga bato—ang mga halagang pinanghahawakan nito, ang mga huwarang mas gusto nito, at ang paraan ng pagtugon nito sa pilit, pagiging bukas, at sa hindi inaasahang pangyayari.
 
-Kapag nauunawaan mo kung paano nag-iisip ang isang isip, hindi mo na kailangang malaman ang metodo nito. Alam mo na ang gagawin nito bago pa man nito gawin.
+Kapag nauunawaan mo kung paano nag-iisip ang isang isip, hindi mo na kailangang malaman ang pamamaraan nito. Batid mo na ang kanyang gagawin bago pa man niya ito gawin.
 
 Nagsimulang manalo si Jung Hae.
 
-Maingat siya tungkol dito.
+Naging maingat siya rito. Nanalo siya nang bahagya lamang sa simula—sa isang puntos, pagkatapos ay dalawa, pagkatapos ay apat. Hindi niya nilinis ang board o winasak ang kanyang kalaban. Hinayaan niyang maging dikit ang mga laban. Naramdaman niya ang bahagyang pagyuko ng lalaki kapag hindi tiyak ang kinalabasan, ang pagtalim ng kanyang atensyon. Pinanood ito ni Jung Hae at naunawaan: ang lalaki ay hindi lamang naglalaro ng Go. May sinusukat siya. At anuman ang sinusukat niya, kailangan niyang maniwala na ang pagsukat ay sa kanya.
 
-Nanalo siya nang bahagya sa simula. Sa pamamagitan ng isang puntos, pagkatapos ay dalawa, pagkatapos ay apat. Hindi niya nilinis ang board. Hindi siya nanggiba. Hinayaan niyang magmukhang malapit ang mga laro — naramdaman ang lalaking yumuyuko nang bahagya paharap sa mas malalapit na laro, naramdaman ang talas ng atensyon kapag hindi sigurado ang kinalabasan. Pinanood niya ito at naisip niya ito at naunawaan niya ito: ang lalaki ay hindi lang naglalaro ng Go. May sinusukat siya. At anuman ang sinusukat niya, kailangan niyang maniwala na ang pagsukat ay sa kanya.
+Kaya hinayaan siya ni Jung Hae na maniwala rito. Naglaro siya nang sapat upang manalo, ngunit hindi sapat upang magbigay ng kaba.
 
-Kaya hinayaan siya ni Jung Hae na maniwala rito.
+Labindalawang taong gulang siya. Ginagawa na niya ito mula noong siya ay sampung taong gulang pa lamang.
 
-Naglaro siya nang sapat para manalo. Hindi sapat para magbigay ng alarma.
+Sa umaga ng ikatlong linggo, winika ng lalaki, "Kamangha-mangha ang iyong pag-unlad."
 
-Labindalawang taong gulang siya. Ginagawa na niya ito mula noong sampu pa lang siya.
+"Mayroon po akong mahusay na guro," tugon ni Jung Hae.
 
-Sa umaga ng ikatlong linggo, nagsabi ang lalaki —
+"Wala akong itinuro sa iyo kahit na ano."
 
-"Nagpakita ka ng kahanga-hangang pag-unlad."
+"Wala po," pagsang-ayon ni Jung Hae. "Ngunit ipinakita ninyo sa akin ang lahat."
 
-"May mabuti po akong guro."
+Tiningnan siya ng lalaki gamit ang tumpak at mapanuring tingin. "Ano ang ipinakita ko sa iyo?"
 
-"Wala naman akong itinuro sayo."
+Naglapag ng bato si Jung Hae, tumingin sa board, at pagkatapos ay sa lalaki. "Kung paano kayo mag-isip. Mas kapaki-pakinabang iyon kaysa sa anumang pamamaraan."
 
-"Hindi po," sang-ayon ni Jung Hae. "Ngunit ipinakita niyo sa akin ang lahat."
+Nanahimik ang lalaki nang matagal. Pagkatapos ay inilagay niya ang kanyang bato, at nagpatuloy sila sa paglalaro.
 
-Tiningnan siya ng lalaki. Ang tumpak at kumukuha ng impormasyong tingin na iyon.
+Napanalunan ni Jung Hae ang larong iyon sa pamamagitan ng anim na puntos—ang kanyang pinaka-mapagpasyang tagumpay. Naramdaman niya ang lalaki na nakaupo nang napakatahimik pagkatapos. Hindi ito katahimikan ng pagkatalo; ito ang katahimikan ng isang taong nakarating na sa sagot na matagal na niyang kinakalkula.
 
-"Ano ang ipinakita ko sa iyo?"
+Naisip niya: Anuman ang pinunta niya rito, nakapagpasya na siya.
+Naisip niya: May mangyayaring mahalaga sa lalong madaling panahon.
 
-Inilapag ni Jung Hae ang isang bato. Tumingin sa board. Pagkatapos ay sa lalaki.
+Inayos niya ang mga bato at naghintay.
 
-"Kung paano kayo mag-isip," sabi niya. "Mas kapaki-pakinabang iyon kaysa sa anumang metodo."
+### **Bahagi V. Pagmamanipula**
+Ang umaga ng ikadalawampu't dalawang araw ang naging huling umaga.
 
-Ang lalaki ay nanatiling tahimik sa isang mahabang sandali.
+Naramdaman ito ni Jung Hae bago pa man maupo ang lalaki. May pagbabago sa kalidad ng katahimikan. Ang apat na lalaki sa gilid ng eskinita—ang mga taong batid niyang naroon simula noong ikalawang linggo ngunit hindi kailanman kinilala—ay may ibang posisyon ngayon. Mas malapit sila. Mas seryoso. Ang lalaking nakasuot ng opisyal na itim na kasuotan na nagsimulang lumitaw tatlong araw na ang nakalipas ay nakatayo nang mas malapit kaysa noon.
 
-Pagkatapos ay inilagay niya ang kanyang bato. At naglaro sila.
+Dumating ang lalaking nakasuot ng kulay-abong balabal at naupo, ngunit hindi siya agad humawak ng bato. Tiningnan niya si Jung Hae.
 
-Nanalo si Jung Hae sa larong iyon sa pamamagitan ng anim na puntos — ang pinaka-desididong margin sa lahat. Naramdaman niya ang lalaking nakaupo nang napakatahimik pagkatapos. Hindi dahil sa pagkatalo. Dahil sa ibang bagay. Isang bagay na parang ang partikular na katahimikan ng isang taong dumarating sa isang sagot na matagal na nilang kinakalkula.
+"Isang laro pa," wika niya. "Laruin mo ako gaya ng iyong tunay na kakayahan. Walang ititira. Walang pagpipigil. Lahat."
 
-Naisip niya: anuman ang pinunta niya rito, sa tingin ko ay nakapagpasya na siya.
+Tiningnan ni Jung Hae ang kanyang mga mata. Pinag-isipan niya kung ano ang kahulugan ng hiling na ito, kung bakit ito hinihingi ngayon, at kung ano ang susunod na mangyayari. Pagkatapos ay inabot niya at inilagay ang unang bato.
 
-Naisip niya: may mangyayaring mangyayari sa lalong madaling panahon.
+"Sige po," wika niya.
 
-Inayos niya muli ang mga bato at naghintay.
+Naglaro siya nang tapat sa kanyang tunay na kakayahan.
 
-✦
+Ibang bagay ang masaksihan ito. Kung noong una ay maingat at nakatimpla siya, ngayon ay siya na lamang ang kanyang sarili—walang gapos. Hindi lamang siya basta umatake o nagdepensa. Gumawa siya ng isang bagay na walang iisang pangalan: dumaloy siya sa paligid ng bawat galaw ng lalaki na parang tubig sa paligid ng isang bato, hinahanap ang eksaktong puwang sa pagitan ng paglaban at pagsuko, hinuhubog ang board mula sa loob palabas.
 
-### **Bahagi V. Manipulasyon**
+Hindi siya naglaro laban sa istratehiya ng lalaki; naglaro siya mula sa loob ng isip ng lalaki.
 
-Ang umaga ng ikadalawampu't dalawang araw ay ang huling umaga.
+Bawat galaw na ginawa ng lalaki, nakita na ito ni Jung Hae na darating—hindi dahil nanghuhula siya, kundi dahil ginugol niya ang dalawampu't dalawang umaga sa pag-aaral ng balarila ng partikular na isip na ito hanggang sa hindi na ito banyaga. Ang lalaki ay naglaro nang mahusay, binabago ang kanyang pamamaraan nang tatlong beses sa loob ng isang laro—isang gawaing hindi pa nakita ni Jung Hae—ngunit hindi ito mahalaga. Naroon na si Jung Hae, naghihintay.
 
-Naramdaman ito ni Jung Hae bago pa man maupo ang lalaki. Isang pagbabago sa kalidad ng katahimikan sa paligid niya. Ang apat na lalaki sa mga gilid ng eskinita — ang mga panatili niyang mulat simula noong ikalawang linggo ngunit hindi kailanman kinilala — ay nakaposisyon nang magkaiba ngayon. Mas malapit. Mas seryoso.
+Nanalo siya sa pamamagitan ng tatlumpu't isang puntos. Isang ganap na pagbagsak ng posisyon ng kulay-abong balabal.
 
-Ang lalaking naka-opisyal na balabal na nagsimulang lumitaw tatlong umaga na ang nakalipas ay nakatayo nang medyo mas malapit kaysa noon.
+Nang mailagay ang huling bato, ang katahimikan sa eskinita ay napakabigat na tila ba ang ingay ng palengke ay nahiwa ng isang talim. Ang mga lalaki sa gilid ng eskinita ay naging tuod.
 
-Ang lalaking naka-abong damit ay dumating at naupo. Ngunit hindi siya agad umabot sa bato.
+Hindi tumingala si Jung Hae. Tiningnan niya ang board. Tiningnan niya ang katotohanan ng kanyang ginawa.
 
-Tiningnan niya si Jung Hae.
+"Alam mo," wika ng lalaki. Ang kanyang boses ay mababa, wala ang awtoridad na karaniwan nitong taglay.
 
-"Isa pang laro," sabi niya. "Laruin mo ako gaya ng talagang kaya mo. Walang mga margin. Walang pigil. Lahat."
+"Alam ko po," sabi ni Jung Hae.
 
-Tiningnan ni Jung Hae ang kanyang mga mata.
+"Simula kailan?"
 
-Naisip niya ang tungkol dito sandali — tungkol sa kung ano ang ibig sabihin ng hilingin ito, at bakit ito hinihiling ngayon, at kung ano ang mangyayari pagkatapos.
+"Ang unang laro na napanalunan ko. Nakita ko kung paano kayo nag-react. Hindi kayo naglalaro para manalo; naglalaro kayo para makita kung maaari akong mapatumba." Sa wakas ay tumingala si Jung Hae. Ang kanyang mukha ay kasing-kalmado ng hamog sa ilog. "Sinusubok ninyo ang aking hangganan. Kaya nagtayo ako ng sahig sa ilalim lamang ng inyong mga mata at hinayaan kayong tumuntong doon."
 
-Pagkatapos ay inabot niya at inilagay ang unang bato.
+Ang mga kamay ng lalaki, na napaka-kontrolado sa loob ng tatlong linggo, ay bahagyang humigpit sa kanyang mga tuhod. Ito lamang ang tanging senyales ng gulat na naramdaman niya—ang realisasyon na siya ay nabasa na parang isang teksto at ang sarili niyang isip ay ginamit laban sa kanya sa loob ng tatlong linggo.
 
-"Sige po," sabi niya.
+"At ang plano?" tanong ng lalaki. Ang kanyang boses ay nanatiling matatag, nangangalap pa rin ng impormasyon. "Sabi mo, lahat ay plano mo simula pa lang."
 
-Linaru niya ito gaya ng talagang kaya niya.
+Pinihit ni Jung Hae ang isang puting bato sa kanyang mga daliri. "Alam ko na po noong ikalawang umaga na hindi kayo narito para sa Go. Ang isang lalaking tulad ninyo—ang paraan ng pagdadala ninyo sa sarili niyo, ang paraan ng pagbibigay ng espasyo ng mga tao sa inyo—hindi kayo pupunta sa mababang palengke sa loob ng dalawampung umaga para makipaglaro sa isang bata sa kalye para sa isang silay na yang. Nagpunta kayo rito para sa isang bagay. Hindi ko alam kung ano."
 
-Ibang bagay ang panoorin ito, at alam niya iyon. Kung saan noon ay maingat siya at malapit at balanse, ngayon ay siya lang na siya — ang kabuuan nito, walang pigil. Hindi siya umatake. Hindi siya nagdepensa. Gumawa siya ng isang bagay na walang iisang pangalan: dumaloy siya sa paligid ng bawat galaw ng lalaki na parang tubig na gumagalaw sa paligid ng isang bato, hinahanap ang eksaktong espasyo sa pagitan ng paglaban at pagsuko, hinuhubog ang board mula sa loob palabas.
+"Kaya?"
 
-Hindi siya naglaro laban sa istratehiya ng lalaki.
+"Kaya, nagpasya ako na gawing sulit ang sarili ko para sa anumang bagay na iyon. Kung matatalo ako sa bawat laro, mawawalan kayo ng interes. Kung manalo ako nang napakaaga o nang napakalinaw, baka makaramdam kayo ng banta. Kailangan kong manalo sa tamang paraan, sa tamang bilis. Sapat upang ipakita sa inyo kung sino ako, ngunit hindi ganoon karami na maramdaman ninyong kayo ay nalampasan."
 
-Naglaro siya mula sa loob ng pag-iisip ng lalaki.
+Tumingala siya. "Hindi ko po alam kung ano ang pinunta niyo rito, ngunit alam kong nakapagpasya na kayo. At alam ko na anuman ang iaalok niyo sa akin, hinihintay niyo ang umagang ito para gawin iyon."
 
-Bawat galaw na ginagawa ng lalaki, nakita na ito ni Jung Hae na darating — hindi dahil nanghuhula siya, kundi dahil ginugol niya ang dalawampu't dalawang umaga sa pag-aaral ng gramatika ng partikular na isip na ito nang ganap kaya hindi na ito banyaga. Gumalaw siya sa loob nito gaya ng paggalaw mo sa loob ng iyong sariling bahay sa dilim, nang walang pag-aalinlangan, alam kung nasaan ang bawat pader.
-
-Ang lalaki ay naglaro nang mahusay. Binago niya ang kanyang metodo nang tatlong beses sa loob lamang ng isang laro — isang bagay na hindi pa nakitang ginawa ni Jung Hae noon, isang huling sukatan, isang tapat na pagsisikap. Ngunit hindi ito mahalaga. Nag-adapt si Jung Hae sa real time, sa loob ng tatlong galaw sa bawat pagkakataon, hinahanap ang bagong gramatika bago pa man ito ganap na mabuo.
-
-Nanalo siya sa laro sa loob ng tatlumpu't isang galaw.
-
-Ito ang pinakaganap na tagumpay ng kanyang buhay.
-
-Ang lalaki ay naupo nang napakatahimik pagkatapos.
-
-Sa mahabang sandali hindi siya nagsalita. Tiningnan niya ang board — sa hugis ng natapos na laro, ang partikular na pattern ng mga puting batong kumakalat dito na parang tubig na hinahanap ang bawat mababang lugar.
-
-"Ginagawa mo na ito," tahimik niyang sabi, "simula pa lang."
-
-Hindi ito isang tanong.
-
-Hindi sumagot si Jung Hae agad. Naglapag siya ng isang puting bato sa gilid ng board — hindi bilang isang galaw, kundi bilang isang bagay lang na gagawin sa kanyang mga kamay habang nagpapasya kung gaano siya katapat.
-
-Pagkatapos ay nagpasya siya.
-
-"Simula po noong ikatlong umaga," sabi niya. "Sa ikatlong umaga ay naunawaan ko na kung paano kayo mag-isip. Pagkatapos niyon — bawat larong naniniwala kayong nanalo kayo, hinayaan ko kayong manalo. Bawat metodong binago niyo, naka-adapt na ako doon sa ikatlong galaw pa lang. Tinuturuan niyo ako. Ngunit hindi ang iniisip niyong itinuturo niyo sa akin."
-
-Tiningnan siya ng lalaki.
-
-"Ano ang itinuturo ko sa iyo?"
-
-Tiningnan ni Jung Hae ang board. "Kayo po. Itinuturo niyo sa akin ang tungkol sa inyo."
-
-Isang katahimikan.
-
-Sa paligid nila ay gumagalaw ang palengke. Isang babae ang sumigaw ng presyo ng luya. Sa likod nila ay may isang gulong ng kariton na tumunog sa isang bato. Ang karaniwang ingay ng isang karaniwang umaga, ganap na walang pakialam sa katotohanan na ang isang labindalawang taong gulang na bata mula sa ibabang palengke ay kababanggit lang sa isang lalaking may hindi mapag-aalinlanganang importansya na binabasa na niya ito na parang isang teksto at pini-pihit ang sarili nitong isip laban dito sa loob ng tatlong linggo.
-
-"At ang plano?" sabi ng lalaki. Hindi nagbago ang kanyang boses. Iyon ang pinaka-nakakabagbag-damdamin — hindi siya tunog galit, o proud, o anumang iisang nararamdaman. Tunog siya gaya ng patuloy pa ring kumukuha ng impormasyon. "Simula pa lang sinabi mo — lahat ay plano mo."
-
-Pinihit ni Jung Hae ang puting bato sa kanyang mga daliri.
-
-"Alam ko na po noong ikalawang umaga na hindi kayo narito para sa Go. Ang isang lalaking tulad niyo — ang paraan ng pagdadala niyo sa sarili niyo, ang paraan ng pagbibigay ng espasyo ng mga tao sa paligid niyo nang hindi hinihiling — hindi kayo pumupunta sa ibabang palengke sa loob ng dalawampung umaga para makipaglaro sa isang bata sa kalye para sa isang pilak na yang. Pumunta kayo rito para sa isang bagay. Hindi ko alam kung ano."
-
-"At?"
-
-"Kaya nagpasya po ako na gawing sulit ang sarili ko para sa anumang bagay na iyon." Inilapag niya ang bato. "Kung matatalo ako sa bawat laro, mawawalan kayo ng interes. Kung manalo ako nang napakaaga, nang napakalinaw, baka makaramdam kayo ng banta. Kailangan kong manalo sa tamang paraan, sa tamang bilis. Sapat para ipakita sa inyo kung ano ako. Hindi sapat para makaramdam kayo na napalitan kayo."
-
-Tumingala siya.
-
-"Hindi ko po alam kung ano ang pinunta niyo rito. Ngunit alam kong nakapagpasya na kayo. At alam kong anuman ang iaalok niyo sa akin, hinihintay niyo ang umagang ito para ialok ito."
-
-Tinitigan siya ng lalaki nang matagal.
-
-Pagkatapos ay gumawa siya ng isang bagay na maaalala ni Nam Jung Hae sa buong buhay niya.
+Tinitigan siya ng lalaki nang matagal. Pagkatapos, gumawa siya ng isang bagay na maaalala ni Nam Jung Hae sa buong buhay niya.
 
 Tumawa siya.
 
-Hindi malakas. Hindi pakitang-tao. Isang tahimik na paglabas ng hangin sa ilong, isang bahagyang galaw sa sulok ng mga matang marahil ay matagal nang nanahimik, ang partikular na tawa ng isang lalaking ginugol ang kanyang buhay sa pagiging pinaka-handang tao sa anumang silid at katatagpo lang, sa unang pagkakataon pagkatapos ng napakahabang panahon, ng isang bagay na hindi niya ganap na napaghandaan.
+Hindi ito malakas o pakitang-tao. Isang tahimik na paglabas ng hangin mula sa ilong, isang bahagyang kulubot sa gilid ng mga matang marahil ay matagal nang nanatiling walang kibo. Ito ang tawa ng isang lalaking ginugol ang kanyang buhay sa pagiging pinaka-handang tao sa anumang silid at katatagpo lang, sa unang pagkakataon sa loob ng mahabang panahon, ng isang bagay na hindi niya ganap na napaghandaan.
 
 "Ilang taon ka na?"
 
 "Labindalawa po."
 
-Umiling nang bahagya ang lalaki. Naglaho ang tawa ngunit ang iniwan nito ay iba sa kung ano ang naroon noon — mas mainit, kahit papaano. Mas kaunti ang pagsukat at mas madami ang pagkilala.
+Bahagyang umiling ang lalaki. Naglaho ang tawa, ngunit nag-iwan ito ng isang bagay na mas mainit—isang pagkilala sa halip na pagsusuri lamang. Inabot niya ang loob ng kanyang kulay-abong balabal at naglapag ng isang jade na token sa gilid ng board. Maliit ito at may ukit—ang uri ng selyo na bahagyang nauunawaan ni Jung Hae na kumakatawan sa opisyal na korespondisya at mga bagay na malayo sa mababang palengke.
 
-Inabot niya ang loob ng kanyang abong balabal.
-
-Naglagay siya ng isang jade na token sa gilid ng board. Maliit, may ukit, ang uri ng selyo na malabo nang nauunawaan ni Jung Hae na nangangahulugan ng opisyal na sulat, mahahalagang dokumento, mga bagay sa labas ng ibabang palengke. Nakakita na siya ng mga ganoon noon mula sa malayo, dala ng isang mensaherong mabilis na gumagalaw sa itaas na kalye.
-
-Tiningnan niya ito at naisip: napakataas na opisyal. Marahil ang pinakamataas na uri.
-
-Hindi niya ito hinawakan.
-
-"Sumama ka sa akin," sabi ng lalaki. "Tuturuan kita magbasa. Tuturuan kita magsulat. Bibigyan kita ng init at tirahan at mas maraming Go board kaysa sa nakita mo na."
+"Sumama ka sa akin," wika ng lalaki. "Tuturuan kita magbasa. Tuturuan kita magsulat. Bibigyan kita ng init, tirahan, at mas maraming board ng Go kaysa sa nakita mo na."
 
 "At bilang kapalit po?"
 
-"Bilang kapalit, nag-iisip ka. Sa paraang nag-iisip ka ngayon — tungkol sa mga tao, tungkol sa espasyo sa pagitan ng ipinapakita ng isang tao at kung ano ang ibig sabihin ng isang tao. Ngunit ang board ay mas malawak na. Ang mga tao ay magiging mga hukbo. Ang laro ay magiging mga kaharian."
+"Bilang kapalit, mag-iisip ka. Sa paraang nag-iisip ka ngayon—tungkol sa mga tao, at sa espasyo sa pagitan ng ipinapakita nila at kung ano ang ibig nilang sabihin. Ngunit ang board ay magiging mas malawak. Ang mga tao ay magiging mga hukbo. Ang laro ay magiging mga kaharian."
 
-Tumingin si Jung Hae sa jade na token. Tumingin siya sa board. Tumingin siya sa lalaking naka-abong damit na hindi isang mangangalakal o isang manggagawa o isang sundalo kundi isang bagay na mas mataas sa lahat ng iyon, isang bagay na may tahimik na awtoridad na nagpapakilos sa karamihan nang hindi nagsasalita.
+Tumingin si Jung Hae sa jade na token, pagkatapos sa board, at pagkatapos sa lalaki. Naisip niya ang pag-alis sa sulok na ito, sa mga sako ng butil, at sa kanyang tsinelas na yari sa lubid. Mag-isa na siya simula noong sampung taong gulang pa lang siya. Gutom siya sa karamihan ng mga umaga at nilalamig sa karamihan ng mga gabi. Ang monghe na nagturo sa kanya ng Go ay dalawang taon nang patay. Walang makakapansin kung basta na lamang siyang maglalaho.
 
-Naisip niya ang tungkol sa kung ano ang ibig sabihin ng umalis. Tungkol sa pag-alis sa sulok na ito, sa sako ng butil na ito, sa mga tsinelas na iniuugnay ng lubid. Tungkol sa pagpasok sa anumang mundong pinanggalingan ng lalaking ito.
+Naisip niya ang lahat ng ito, pagkatapos ay naisip niya ang laro.
 
-Siya ay labindalawa. Mag-isa na siya simula noong sampu pa lang siya. Gutom siya sa karamihan ng mga umaga at malamig sa karamihan ng mga gabi at ang monghe na nagturo sa kanya ng Go ay dalawang taon na ring patay at wala nang sinuman sa mundo ang makakapansin kung hindi na lang siya lilitaw isang araw.
-
-Naisip niya ang lahat ng ito.
-
-Pagkatapos ay naisip niya ang laro. Tungkol sa board na nakalatag pa rin sa pagitan nila. Tungkol sa hindi pa natatapos na bagay.
-
-"May isang kondisyon po ako," sabi ni Nam Jung Hae.
+"Mayroon po akong isang kondisyon," sabi ni Nam Jung Hae.
 
 "Sabihin mo."
 
-Itinuro niya ang board.
+Itinuro niya ang board. "Tapusin muna natin ito."
 
-"Tapusin muna natin ito."
+"Tapos na ang larong ito," sabi ng lalaki, nakatingin sa tatlumpu't isang puntos na tagumpay.
 
-Tiningnan ng lalaki ang board. Sa natapos na laro na nakalatag na sa pagitan nila — ang laro ng tatlumpu't isang galaw, ang pinakaganap na tagumpay sa labindalawang taon ni Jung Hae.
+"Alam ko po. Ang ibig ko pong sabihin ay isang bago. Isa pang laro, bago ako magpasya."
 
-"Tapos na ang larong ito," sabi niya.
+Pinag-aralan siya ng lalaki, pagkatapos ay nirelisan ang mga bato mula sa board sa isang malinis na galaw at nagsimulang muling ayusin ang mga ito. "Sige."
 
-"Alam ko po," sabi ni Jung Hae. "Ang ibig ko pong sabihin ay isang bago. Isa pang laro. Bago ako magpasya."
+Linaru nila ang huling laro. Hindi sinubukan ni Jung Hae na manalo, hindi rin niya sinubukang matalo. Naglaro siya nang buo at tapat, nang walang plano o pagganap. Sa unang pagkakataon sa loob ng tatlong linggo, wala nang namamagitan sa kanila kundi ang laro mismo. Walang pagbasa, walang arkitektura ng istratehiya—dalawang tao lamang na naglalaro ng Go sa isang sako ng butil sa malamig na umaga.
 
-Pinag-aralan siya ng lalaki.
+Nanalo ang lalaki sa pamamagitan ng tatlong puntos.
 
-Pagkatapos ay inabot niya at nilinis ang mga bato mula sa board sa isang malinis na galaw. Nagsimulang ayusin muli ang mga ito.
+Tinitigan ni Jung Hae ang board nang matagal. Nahanap niya ang galaw—ang ikapitong galaw, kung saan pumili siya batay sa instinto sa halip na kalkulasyon, at ito ay mali. Inimbak niya ang realisasyong iyon para sa susunod.
 
-"Sige," sabi nila.
+"Sigue po," wika niya.
 
-Linaru nila ang huling laro.
-
-Hindi sinubukan ni Jung Hae na manalo rito.
-
-Hindi niya sinubukang matalo rito.
-
-Naglaro lang siya — nang buo, nang tapat, nang walang plano o pakitang-tao. Siya lang at ang board at ang lalaki sa tapat niya, at sa unang pagkakataon sa loob ng tatlong linggo ay wala nang namamagitan sa kanila maliban sa laro mismo. Walang pagbabasa, walang pasensya, walang arkitektura ng istratehiya na nakalatag sa ilalim na parang isang nakatagong pundasyon.
-
-Dalawang tao lang na naglalaro ng Go sa isang sako ng butil sa ibabang palengke sa isang ordinaryong malamig na umaga.
-
-Nanalo ang lalaki. Sa pamamagitan ng tatlong puntos.
-
-Tiningnan ni Jung Hae ang board nang matagal. Nahanap niya ang galaw — ang ikapitong galaw, kung saan gumawa siya ng desisyon nang walang kalkulasyon, instinto lang, at mali ito. Inimbak niya ito. Iisipin niya ito mamaya.
-
-Tumingala siya.
-
-"Sige po," sabi niya.
-
-Tumayo siya. Kinuha ang board at ipinaloob ito sa kanyang kili-kili. Tinipon ang telang supot sa kanyang sinturon. Tumingin sa sulok — sa mga sako ng butil, sa makitid na espasyo, sa lugar na naging kanya sa loob ng dalawang taon.
-
-Tiningnan niya ito sa paraang tinitingnan mo ang isang bagay na isinaulo mo.
-
-Pagkatapos ay lumingon siya at sumunod sa bawat hakbang sa tabi ng lalaking naka-abong damit.
-
-✦
+Tumayo siya, inilagay ang board sa ilalim ng kanyang kili-kili, at tinipon ang kanyang supot na tela. Tumingin siya sa sulok—sa mga sako ng butil at sa makitid na espasyo na naging kanya sa loob ng dalawang taon—na panyo bang sinasaulo ito. Pagkatapos ay lumingon siya at sumabay sa paglakad ng lalaking naka-kulay-abong balabal.
 
 ### **Bahagi VI. Pag-aampon**
+Naglakad sila patungong hilaga sa pamilihan at patungo sa mga kalyeng hindi batid ni Jung Hae. Ang lalaking nakasuot ng opisyal na itim na kasuotan ay sumunod na may tatlong hakbang ang layo. Ang apat na tahimik na lalaki ay muling pumuwesto sa paligid nila, tila hindi nakikita ngunit naroon sa lahat ng dako gaya ng tubig.
 
-Naglakad sila pahilaga sa palengke at pagkatapos ay palabas dito, patungo sa mga kalyeng hindi alam ni Jung Hae.
+Nagpatuloy ang palengke sa likuran nila. Walang nakapansin na may isang batang lumabas sa sulok na iyon sa huling pagkakataon.
 
-Ang lalaking naka-opisyal na itim na balabal ay sumunod sa kanila sa layong tatlong hakbang. Ang apat na tahimik na lalaki sa mga gilid ay naglaho mula sa eskinita at nag-ayos muli sa paligid at sa unahan, hindi nagmamadali at invisible sa paraang ang tubig ay invisible hanggang sa ito ay nasa lahat ng dako.
-
-Nagpatuloy ang palengke sa likod nila. Walang nakapansin. Walang tumawag sa kanila. Walang makakaalam na may isang batang lumabas sa sulok na iyon sa huling pagkakataon.
-
-Naglakad sila nang tahimik sandali.
-
-Pagkatapos ay nagsabi ang lalaki, nang hindi nililingon ang kanyang ulo —
-
-"Sinabi mong alam mong hindi ako narito para sa Go. Na nagpasya kang gawing sulit ang iyong sarili para sa anumang pinunta ko."
+Pagkaraan ng ilang sandali, nagsalita ang lalaki nang hindi nililingon ang ulo. "Sabi mo alam mong hindi ako naparito para sa Go. Na nagpasya kang gawing sulit ang iyong sarili."
 
 "Opo."
 
-"Mayroon bang anumang hindi mo kinalkula?"
+"Mayroon bang anumang bagay na hindi mo kinalkula?"
 
-Naisip ito ni Jung Hae nang tapat.
-
-"Yung huling laro po," sabi niya. "Hindi ko kinalkula iyon. Naglaro lang po ako."
+Nag-isip nang tapat si Jung Hae. "Ang huling laro po. Hindi ko kinalkula iyon. Naglaro lamang ako."
 
 "Natalo ka."
 
 "Alam ko po."
 
-Isang sandali.
+"Nakakaabala ba iyon sa iyo?"
 
-"Inabala ka ba nito?"
+Pinag-isipan ito ni Jung Hae. "Hindi po. Pakiramdam ko ito ang pinaka-tapat na larong nilaro natin."
 
-Isinaalang-alang ni Jung Hae ang tanong.
+Naglakad ang lalaki nang tahimik sandali. "Totoo iyon."
 
-"Hindi po," sabi niya. "Pakiramdam ko po ito ang pinatotoong larong nilaro natin."
+Lumingon sila sa isang mas malawak na kalye, na iba ang pagkaka-semento, na may matatayog na gusali. Pinanood ni Jung Hae ang mga tao, na gumagalaw nang may maingat na paggalang gaya ng mga taong alam na sila ay pinagmamasdan. Sa dulo ng kalye, nakakita siya ng matatayog na pintuan at mga bubong na kumukurba paitaas—ang uri na nakita lamang niya sa mga pinta.
 
-Naglakad ang lalaki nang tahimik sandali.
+Naisip niya ang jade na token. Ang paraan ng pagbibigay ng espasyo ng karamihan. Ang apat na tahimik na lalaki na higit pa sa simpleng mga bantay. Naisip niya ang apelyido ng lalaki, na ibinigay nang napakadali: Gu.
 
-"Totoo," sabi niya.
+Nagsimula siyang mag-ayos muli ng mga piraso sa kanyang isipan: Mataas na opisyal. Napaka-importante. Ang pinakamataas na uri. Ano ang mas mataas sa pinakamataas na uri ng opisyal? tanong niya sa sarili. Saan ba tayo naglalakad? Ano ang ibig sabihin na ang apelyido niya ay Gu?
 
-Lumiko sila sa isang mas malawak na kalye — mas malawak kaysa sa anuman sa ibabang distrito, magkaiba ang pagkaka-pave, mas matataas ang mga gusali at mas malayo ang pagitan. Tiningnan ito ni Jung Hae. Tiningnan niya ang mga tao dito, na gumagalaw taglay ang maingat na paggalang ng mga taong laging mulat na sila ay pinagmamasdan.
+Hindi niya binanggit ang kanyang mga iniisip. Labindalawa na siya, at hindi pa siya tiyak. Ang katiyakan ang tanging magandang dahilan para magsalita.
 
-Tumingin siya sa unahan kung saan patungo ang kalye.
-
-Hindi pa siya nakakarating sa bahaging ito ng Hanyang. Nakikita niya, sa kabilang dulo ng malawak na kalye, na tumataas sa ibabaw ng mga bubong at ng mga pader —
-
-Nakakakita siya ng mga pintuan. Matataas. At sa likod ng mga pintuan, ang mga linya ng bubong na pakurba paitaas sa mga sulok sa paraang nakita lang niya sa mga paintings.
-
-Tiningnan niya ang mga pintuan sandali.
-
-Pagkatapos ay tiningnan niya ang lalaking naglalakad sa kabi niya.
-
-Naisip niya ang tungkol sa jade na token. Tungkol sa paraan kung paano nagbibigay ng espasyo ang karamihan. Tungkol sa apat na tahimik na lalaki na hindi mga guard sa anumang opisyal na kahulugan ngunit gumagalaw gaya ng isang bagay na mas mahalaga kaysa sa mga guard. Tungkol sa tatlong linggo ng mga umaga at isang abong damit na hindi bagay sa kung sino ang lalaki at isang apelyidong ibinigay nang napakadali sa harap ng isang Go board, na parang wala lang.
-
-Naisip niya ang lahat ng ito at naramdaman itong nag-aayos muli — bawat pirasong nakolekta niya, bawat obserbasyong naimbak niya at nalagyan ng label na mataas na opisyal, napaka-importante, isang taong may awtoridad, ang pinakamataas na uri —
-
-Naisip niya: ano ang mas mataas sa pinakamataas na uri ng opisyal.
-
-Naisip niya: saan ba tayo parang naglalakad.
-
-Naisip niya: ano ang ibig sabihin na ang apelyido niya ay Gu.
-
-Hindi niya sinabi ang alinman dito.
-
-Siya ay labindalawa. Hindi siya sigurado. At ang katiyakan, natutunan niya, ay ang tanging magandang dahilan para magsalita.
-
-Nagpatuloy siya sa paglalakad.
-
-Pinanatili niya ang board sa ilalim ng kanyang kili-kili, nakadiit sa kanyang mga tadyang kung saan nararamdaman niya ito sa bawat hakbang.
-
-Pinanood niya ang mga pintuang palapit nang palapit.
+Nagpatuloy siya sa paglalakad, idinidiit ang board sa kanyang tadyang. Pinanood niya ang mga pintuan na palapit nang palapit.
 
 *Malalaman niya ang katotohanan noong gabing iyon.*
 
-*Uupo siya taglay ang isang brush na hindi pa niya alam kung paano hawakan*
+*Uupo siya taglay ang isang brush na hindi pa niya alam kung paano hawakan, at ang lalaking naka-itim na opisyal na balabal ay magsasabi ng isang bagay sa pagdaan, halos walang bigat.*
 
-*at ang lalaking naka-itim na opisyal na balabal ay magsasabi ng isang bagay*
+*Ang salita ay babagsak sa gitna ng dibdib ni Nam Jung Hae na parang isang batong nailagay sa tumpak na sentro ng isang board.*
 
-*sa pagdaan, halos walang bigat,*
+***"Ang Kanyang Kamahalan."***
 
-*at ang salita ay babagsak sa gitna ng dibdib ni Nam Jung Hae*
+*Si Nam Jung Hae ay ganap na mananatiling tahimik. At sa katahimikan ng katahimikang iyon, hindi siya makakaramdam ng takot. Hindi siya makakaramdam ng liit.*
 
-*na parang isang batong nailagay sa tumpak na sentro ng isang board.*
+*Iisipin niya, taglay ang malinis na katumpakan na ipinanganak sa kanya:*
 
-*Ang Kanyang Kamahalan.*
+***Namanipula ko ang Hari ng Joseon.***
 
-*At si Nam Jung Hae ay ganap na mananatiling tahimik.*
+***Labindalawang taong gulang ako.***
 
-*At sa katahimikan ng katahimikang iyon*
+***Hindi ko alam.***
 
-*hindi siya makakaramdam ng takot.*
-
-*Hindi siya makakaramdam ng liit.*
-
-*Iisipin niya, nang tahimik, taglay ang malinis na katumpakan*
-
-*na ipinanganak sa kanya at hinasa sa isang sulok ng palengke*
-
-*sa loob ng dalawang malamig at gutom na taon —*
-
-*Namanipula ko ang Hari ng Joseon.*
-
-*Labindalawang taong gulang ako.*
-
-*Hindi ko alam.*
-
-*At pagkatapos, dahil siya ay kung sino siya —*
-
-*Kukunin niya ang brush.*
-
-*At magsisimulang mag-aral.*
+*At pagkatapos, dahil siya ay kung sino siya, kukunin niya ang brush at magsisimulang mag-aral.*

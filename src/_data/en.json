@@ -48,5 +48,9 @@
   "reading_time_suffix": "min read",
 
   "ep_prev": "Previous",
-  "ep_next": "Next"
+  "ep_next": "Next",
+  "nav_navigate": "Navigate",
+  "nav_community": "Community",
+  "footer_rights": "All rights reserved.",
+  "footer_built": "A historical journey."
 }

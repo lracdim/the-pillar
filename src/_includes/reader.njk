@@ -107,11 +107,11 @@
   {% set nextPost = navPages | getNextCollectionItem %}
 
   <article class="reader">
-    <div class="episode-label">{% if lang == 'ko' %}{{ ko.hero_volume }}{% else %}{{ en.hero_volume }}{% endif %}</div>
+    <div class="episode-label">{{ 'hero_volume' | t(lang) }}</div>
     <h1 class="episode-title">{{ title }}</h1>
     
     <div class="reading-time">
-      <span style="color: var(--ink);">●</span> {% if wordCount %}{{ (wordCount / 200) | round }}{% else %}5{% endif %} {% if lang == 'ko' %}{{ ko.reading_time_suffix }}{% else %}{{ en.reading_time_suffix }}{% endif %}
+      <span style="color: var(--ink);">●</span> {% if wordCount %}{{ (wordCount / 200) | round }}{% else %}5{% endif %} {{ 'reading_time_suffix' | t(lang) }}
     </div>
     
     <div class="episode-body" id="episode-body">
@@ -123,7 +123,7 @@
       <div class="ep-nav-links">
         {% if previousPost %}
         <a href="{{ previousPost.url }}" class="ep-nav-btn prev">
-          <span class="ep-nav-label">{% if lang == 'ko' %}{{ ko.ep_prev }}{% else %}{{ en.ep_prev }}{% endif %}</span>
+          <span class="ep-nav-label">{{ 'ep_prev' | t(lang) }}</span>
           <span class="ep-nav-title">{{ previousPost.data.title }}</span>
         </a>
         {% else %}
@@ -132,7 +132,7 @@
 
         {% if nextPost %}
         <a href="{{ nextPost.url }}" class="ep-nav-btn next">
-          <span class="ep-nav-label">{% if lang == 'ko' %}{{ ko.ep_next }}{% else %}{{ en.ep_next }}{% endif %}</span>
+          <span class="ep-nav-label">{{ 'ep_next' | t(lang) }}</span>
           <span class="ep-nav-title">{{ nextPost.data.title }}</span>
         </a>
         {% endif %}

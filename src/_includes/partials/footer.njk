@@ -12,14 +12,14 @@
       
       <div class="footer-links">
         <div class="footer-link-group">
-          <span class="footer-link-title">{% if lang == 'ko' %}탐색{% else %}Navigate{% endif %}</span>
-          <a href="/{{ lang }}/">{% if lang == 'ko' %}{{ ko.nav_read }}{% else %}{{ en.nav_read }}{% endif %}</a>
-          <a href="/about/">{% if lang == 'ko' %}{{ ko.nav_about }}{% else %}{{ en.nav_about }}{% endif %}</a>
-          <a href="/characters/">{% if lang == 'ko' %}{{ ko.nav_characters }}{% else %}{{ en.nav_characters }}{% endif %}</a>
+          <span class="footer-link-title">{{ 'nav_navigate' | t(lang) }}</span>
+          <a href="/{{ lang }}/">{{ 'nav_read' | t(lang) }}</a>
+          <a href="/{{ lang }}/about/">{{ 'nav_about' | t(lang) }}</a>
+          <a href="/{{ lang }}/characters/">{{ 'nav_characters' | t(lang) }}</a>
         </div>
         
         <div class="footer-link-group">
-          <span class="footer-link-title">{% if lang == 'ko' %}커뮤니티{% else %}Community{% endif %}</span>
+          <span class="footer-link-title">{{ 'nav_community' | t(lang) }}</span>
           <a href="https://twitter.com/thepillar" target="_blank" rel="noopener">Twitter</a>
           <a href="https://discord.gg/thepillar" target="_blank" rel="noopener">Discord</a>
         </div>
@@ -28,10 +28,10 @@
     
     <div class="footer-bottom">
       <div class="footer-copyright">
-        &copy; 2024 {{ site.name }}. {% if lang == 'ko' %}모든 권리 보유.{% else %}All rights reserved.{% endif %}
+        &copy; 2024 {{ site.name }}. {{ 'footer_rights' | t(lang) }}
       </div>
       <div class="footer-built">
-        {% if lang == 'ko' %}역사적인 여정.{% else %}A historical journey.{% endif %}
+        {{ 'footer_built' | t(lang) }}
       </div>
     </div>
   </div>

@@ -63,7 +63,9 @@ export async function updateHomePageStats() {
   const { databases, DB_ID, COL_VISITORS } = await import('./appwrite.js');
   
   try {
-    const result = await databases.listDocuments(DB_ID, COL_VISITORS, []);
+    const result = await databases.listDocuments(DB_ID, COL_VISITORS, [
+      Query.limit(100)
+    ]);
     
     // Visitors = Specifically the count of visits to the landing page
     const landingDoc = result.documents.find(doc => doc.slug === 'landing');

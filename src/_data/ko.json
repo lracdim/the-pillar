@@ -48,5 +48,9 @@
   "reading_time_suffix": "분 읽기",
 
   "ep_prev": "이전 화",
-  "ep_next": "다음 화"
+  "ep_next": "다음 화",
+  "nav_navigate": "탐색",
+  "nav_community": "커뮤니티",
+  "footer_rights": "모든 권리 보유.",
+  "footer_built": "역사적인 여정."
 }

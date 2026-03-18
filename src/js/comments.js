@@ -16,7 +16,7 @@ export async function loadComments(episodeSlug, language) {
     const result = await databases.listDocuments(DB_ID, COL_COMMENTS, [
       Query.equal('episodeSlug', episodeSlug),
       Query.equal('language', language),
-      Query.orderDesc('createdAt'),
+      Query.orderDesc('$createdAt'),
       Query.limit(50)
     ]);
     
@@ -36,16 +36,18 @@ export function renderComments(comments) {
   
   const translations = {
     ko: { empty: '아직 댓글이 없습니다. 첫 번째 독자가 되어 주세요.' },
-    en: { empty: 'No comments yet. Be the first reader.' }
+    en: { empty: 'No comments yet. Be the first reader.' },
+    tl: { empty: 'Wala pang komento. Maging unang mambabasa na magkomento.' }
   };
   
   if (!comments || comments.length === 0) {
-    commentsList.innerHTML = `<div class="comments-empty">${translations[isKo ? 'ko' : 'en'].empty}</div>`;
+    const emptyMsg = translations[lang] ? translations[lang].empty : translations['en'].empty;
+    commentsList.innerHTML = `<div class="comments-empty">${emptyMsg}</div>`;
     return;
   }
   
   commentsList.innerHTML = comments.map(comment => {
-    const date = new Date(comment.createdAt);
+    const date = new Date(comment.$createdAt);
     const timeStr = date.toLocaleDateString(lang === 'ko' ? 'ko-KR' : 'en-US', {
       year: 'numeric', month: 'short', day: 'numeric'
     });
@@ -70,8 +72,7 @@ export async function postComment(episodeSlug, language, userId, userName, body)
     language,
     userId,
     userName,
-    body: body.trim(),
-    createdAt: new Date().toISOString()
+    body: body.trim()
   });
 }
 
