@@ -1,4 +1,5 @@
-import { functions, FN_INCREMENT } from './appwrite.js';
+import { functions, FN_INCREMENT, databases, DB_ID, COL_VISITORS } from './appwrite.js';
+import { Query } from "https://cdn.jsdelivr.net/npm/appwrite@16/dist/esm/sdk.js";
 
 export async function incrementVisitor(slug) {
   try {
@@ -8,9 +9,6 @@ export async function incrementVisitor(slug) {
     console.warn("Function increment failed, trying client-side fallback...");
     
     // Fallback: Direct database update
-    const { databases, DB_ID, COL_VISITORS } = await import('./appwrite.js');
-    const { Query } = await import("https://cdn.jsdelivr.net/npm/appwrite@16/dist/esm/sdk.js");
-
     try {
       const result = await databases.listDocuments(DB_ID, COL_VISITORS, [Query.equal('slug', slug)]);
       if (result.documents.length > 0) {
@@ -31,9 +29,6 @@ export async function incrementVisitor(slug) {
 }
 
 async function fetchVisitorCount(slug) {
-  const { databases, DB_ID, COL_VISITORS } = await import('./appwrite.js');
-  const { Query } = await import("https://cdn.jsdelivr.net/npm/appwrite@16/dist/esm/sdk.js");
-  
   try {
     const result = await databases.listDocuments(DB_ID, COL_VISITORS, [
       Query.equal('slug', slug),
@@ -60,8 +55,6 @@ export async function updateVisitorDisplay(slug) {
 }
 
 export async function updateHomePageStats() {
-  const { databases, DB_ID, COL_VISITORS } = await import('./appwrite.js');
-  
   try {
     const result = await databases.listDocuments(DB_ID, COL_VISITORS, [
       Query.limit(100)
@@ -107,7 +100,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
   
-  const isEpisode = slug.startsWith('ep');
+  const isEpisode = slug && slug.startsWith('ep');
   if (isEpisode) {
     await incrementVisitor(slug);
     await updateVisitorDisplay(slug);

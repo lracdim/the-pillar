@@ -31,6 +31,13 @@ export async function login(identifier, password) {
     }
 
     try {
+        // Clear any existing session to prevent "session active" error
+        try {
+            await account.deleteSession('current');
+        } catch (e) {
+            // Ignore if no session exists
+        }
+
         await account.createEmailPasswordSession(email, password);
         await syncUserProfile();
         return { success: true };
