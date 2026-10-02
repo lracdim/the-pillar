@@ -2,7 +2,6 @@
   {
     "slug": "ep1",
     "episode": 1,
-    "free": true,
     "published": true,
     "titles": {
       "ko": "바둑과 구씨",
@@ -18,7 +17,6 @@
   {
     "slug": "ep2",
     "episode": 2,
-    "free": false,
     "published": true,
     "titles": {
       "ko": "바둑판과 말들",
@@ -34,7 +32,6 @@
   {
     "slug": "ep3",
     "episode": 3,
-    "free": false,
     "published": true,
     "titles": {
       "ko": "희생의 대마",
@@ -50,7 +47,6 @@
   {
     "slug": "ep4",
     "episode": 4,
-    "free": false,
     "published": true,
     "titles": {
       "ko": "같은 곳에 두 번 치는 번개",
@@ -66,7 +62,6 @@
   {
     "slug": "ep5",
     "episode": 5,
-    "free": false,
     "published": true,
     "titles": {
       "ko": "왕실의 피 노예",

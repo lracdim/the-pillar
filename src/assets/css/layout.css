@@ -96,47 +96,6 @@
   display: none;
 }
 
-.btn-signin {
-  background: transparent;
-  border: 0.5px solid var(--ink-dim);
-  color: var(--ink);
-  font-size: 13px;
-  padding: 8px 18px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.btn-signin:hover {
-  border-color: var(--ink);
-}
-
-.btn-signup {
-  background: var(--ink);
-  color: var(--bg-base);
-  font-size: 13px;
-  font-weight: 600;
-  padding: 8px 18px;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-signup:hover {
-  background: var(--ink-bright);
-}
-
-.btn-signout {
-  background: transparent;
-  border: none;
-  color: var(--text-muted);
-  font-size: 11px;
-  cursor: pointer;
-}
-
-.btn-signout:hover {
-  color: var(--error);
-}
-
 .hamburger {
   display: block;
   background: none;
@@ -147,10 +106,6 @@
 }
 
 @media (max-width: 767px) {
-  .navbar-actions #nav-auth-guest,
-  .navbar-actions #nav-auth-user {
-    display: none;
-  }
   
   .lang-select {
     width: 60px;
@@ -168,13 +123,6 @@
     display: none;
   }
 
-  .mobile-menu .btn-signin,
-  .mobile-menu .btn-signup {
-    width: 100%;
-    margin: 4px 0;
-    text-align: center;
-    padding: 12px;
-  }
 }
 
 .mobile-menu {
@@ -332,10 +280,6 @@
   max-width: 100%;
 }
 
-.right-panel {
-  display: none;
-}
-
 @media (min-width: 768px) {
   .navbar {
     padding: 0 32px;
@@ -379,17 +323,6 @@
     margin: 0 auto;
   }
 
-  .right-panel {
-    display: block;
-    width: 260px;
-    flex-shrink: 0;
-    padding: 32px 24px;
-    border-left: 0.5px solid var(--border-dim);
-    height: calc(100vh - 56px);
-    position: sticky;
-    top: 56px;
-    overflow-y: auto;
-  }
 }
 
 @media (min-width: 1400px) {
