@@ -7,7 +7,7 @@
   
   <div class="hero-stats">
     <div class="stat-item">
-      <div class="stat-num">{{ episodes | length }}</div>
+      <div class="stat-num">{% set n = 0 %}{% for ep in episodes %}{% if (not ep.langs) or (lang in ep.langs) %}{% set n = n + 1 %}{% endif %}{% endfor %}{{ n }}</div>
       <div class="stat-label">{{ 'stat_episodes' | t(lang) }}</div>
     </div>
     <div class="stat-item">
@@ -18,12 +18,12 @@
 </section>
 
 <div class="home-episode-grid">
-  {% for ep in episodes %}
+  {% for ep in episodes %}{% if (not ep.langs) or (lang in ep.langs) %}
   <a href="/{{ lang }}/{{ ep.slug }}/" class="episode-card">
     <div class="episode-card-num">{{ 'sidebar_episodes' | t(lang) }} {{ ep.episode }}</div>
     <h2 class="episode-card-title">{{ ep.titles[lang] }}</h2>
     <p class="episode-card-excerpt">{{ ep.excerpt[lang] }}</p>
   </a>
-  {% endfor %}
+  {% endif %}{% endfor %}
 </div>
 {% endblock %}

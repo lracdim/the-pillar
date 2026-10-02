@@ -5,7 +5,7 @@ lang: en
 title: "The Light of the Shadow"
 titleRomanized: "The Light of the Shadow"
 volume: 1
-wordCount: 3120
+wordCount: 6633
 published: true
 date: 2024-02-22
 excerpt: "You cannot catch a shadow by chasing it. You can only look for the thing that cast it. They looked. They found nothing."
@@ -439,7 +439,7 @@ He recognized it.
 
 Dark lacquer. Edges worn smooth from years of handling. A board he had seen across from him on a storage corridor floor for five years, played on a low writing table for five years, resting on a shelf in a small room that smelled of pine and old lacquer.
 
-A board he had last seen carried out of the palace through a passage in the northern wall on a night ten years ago.
+A board he had last seen on a shelf in a small room that smelled of pine — five years ago, before a night when it was carried out through a passage in the northern wall.
  
 He turned.
 
@@ -447,7 +447,7 @@ Jung Hae was looking at him.
  
 Neither of them moved.
 
-The forge was quiet. The fire burned low. Outside the commoner district went about its evening, rippling with the news from the palace, not knowing that two of the people most responsible for that news were sitting in a forge room doing nothing except looking at each other across a decade of absence.
+The forge was quiet. The fire burned low. Outside the commoner district went about its evening, rippling with the news from the palace, not knowing that two of the people most responsible for that news were sitting in a forge room doing nothing except looking at each other across five years of absence.
  
 Jung Hae set down the forge supplies.
 
@@ -501,7 +501,7 @@ Jung Hae looked at him.
 
 Something crossed his face.
 
-Not the reading. Not the precision. Not the trained stillness that had made him invisible for a decade.
+Not the reading. Not the precision. Not the trained stillness that had made him invisible for five years.
 
 Something that had been there since a storage corridor floor and a seven-year-old with dusty knees who sat across from him because a cat had led him there — and that had survived every year since, quiet and certain, underneath all the strategy and the grief and the loss.
 
@@ -577,7 +577,7 @@ What she had not placed was the three people sitting around a low table in the l
 
 What she had not seen — what no one had seen, not the court, not the network, not the new king or the old one before him — was the board.
 
-The board that had been filling for a decade.
+The board that had been filling for five years.
 
 One careful stone at a time.
 
@@ -675,17 +675,29 @@ Jung Hae reached over.
 
 He lifted the cover from the Go board.
 
-The stone he had placed the night before was still at the center. One stone. On a board that had been filling for a decade.
+The stone he had placed the night before was still at the center. One stone. On a board that had been filling for five years.
 
 He looked at the board for a moment.
 
 Then he looked at both of them.
 
-"The plan," he said, "has been running for ten years. We are at the part where the three of us are finally in the same room."
+"The plan," he said, "has been running for five years. We are at the part where the three of us are finally in the same room."
 
 A pause.
 
 "That was always the part I was building toward."
+
+Eunsik looked at him.
+
+"And the northern wing," he said. "Was that in the plan?"
+
+Jung Hae did not look away.
+
+"No," he said. "I did not have eyes inside the palace until this spring. By the time I knew what had been done to her, it had been done for three years." A pause. "I read the board for five years and I did not see that. I should have."
+
+It was the first time Eunsik had ever heard him say it.
+
+He did not say it was all right. It was not all right. He nodded once, the way you accept a true thing, and let it stand between them.
  
 Taeyang looked at the board.
 
@@ -761,31 +773,25 @@ The walk through the capital. The forge. The board on the shelf.
 
 The voice that had said you have grown, in the same tone it had once said start with these while handing over a stack of western province ledgers to a seven-year-old following a cat.
 
-He thought: ten years.
+He thought: five years.
 
-He thought: he has been building for ten years.
-
-He thought: I was inside the palace for five of those years and I did not know.
-
-He thought: he built it around me. Without me knowing. Without me being able to interfere with it or compromise it or get myself killed doing something ill-advised that would have unraveled it.
+He thought: he has been building for five years, outside, in the dark, and I was inside and did not know.
 
 He thought about the eleven officials with clean records that were not clean. He thought about walking into that trap thinking he was the one who had planned everything. He thought about the cell and the walls and the lesson about reading before moving.
 
-He thought: he let me walk into it.
+He thought: he did not see the northern wing. He said so. He did not dress it up.
 
-He thought: he knew I would.
-
-He thought: he built the plan around the fact that I would walk into it and get myself imprisoned and sit in that cell and finally — finally — see the board clearly.
+He thought: the one man who sees everything did not see the thing that broke me — and when he found out, he came anyway. He built the day around a cell he had only known about for a month.
  
 The particular feeling that moved through him in that moment was not anger.
 
 It was something more difficult than anger and more honest than comfort.
 
-It was the feeling of being fully known.
+It was the feeling of being found.
 
-Of having someone see everything you are — your strengths and your blind spots and the specific way you would fail and the specific lesson that failure would teach you — and build around all of it. Not to control. To bring you to the right place at the right time with the right understanding.
+Not known from a distance, the way a strategist knows a piece. Found — by someone who had been wrong about one thing, said so, and crossed a kingdom to stand in the same room anyway.
 
-The same thing the King had done for Jung Hae.
+The same thing the King had done for Jung Hae, on a grain sack in the lower market.
 
 The same thing Jung Hae had now done for him.
  
@@ -805,7 +811,7 @@ The Queen did not know that her real opponent had never been inside the palace a
 
 Had never needed to be.
 
-Had simply been filling a board, one stone at a time, for ten years.
+Had simply been filling a board, one stone at a time, for five years.
 
 And that the three people who were going to dismantle everything she had built were sleeping in a forge in the commoner district.
 
@@ -827,7 +833,7 @@ Three players.
 
 One board.
 
-And the game — the real game, the one that had been a decade in preparation — had just begun.
+And the game — the real game, the one that had been five years in preparation — had just begun.
 
 ────────────────────────────
 
@@ -842,7 +848,7 @@ And the game — the real game, the one that had been a decade in preparation �
 *One placed the night before.*
 *One placed tonight.*
  
-*And the man who had been filling it for ten years*
+*And the man who had been filling it for five years*
 *looked at the board*
 *and for the first time since a king pressed it into his hands*
 *in a dark corridor*

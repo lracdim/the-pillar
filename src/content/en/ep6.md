@@ -5,10 +5,10 @@ lang: en
 title: "Blueprint Made in Water"
 titleRomanized: "Blueprint Made in Water"
 volume: 1
-wordCount: 2855
+wordCount: 4700
 published: true
 date: 2024-02-21
-excerpt: "A plan written on paper can be found. A plan spoken aloud can be heard. But a plan that lives only in one mind and in the trained bodies of the people who will carry it out — cannot be stolen."
+excerpt: "A plan that lives only in one mind cannot be stolen. It leaves nothing to find until it is already moving."
 ---
 
 THE PILLAR
@@ -178,7 +178,7 @@ It had taken three months.
 
 Understanding which ministers still delivered honest reports despite the court's culture of comfortable deception — this required months of reading personnel patterns, session records, the behavioral signatures of men who had not yet been fully captured by the corruption around them. There were fewer than he had expected. More than he had feared.
 
-Understanding which reports would land hardest on a king whose paranoia had been carefully tended for years — this required knowing the king. Jung Hae had been building that knowledge since Eunsik's first intelligence fragments reached him. The hallucinations. The guilt. The particular sequence of failures that made the paranoia spike into something uncontrolled.
+Understanding which reports would land hardest on a king whose paranoia had been carefully tended for years — this required knowing the king. Jung Hae had been building that knowledge for three years, from provincial reports and session records and the testimony of clerks who had stood in that hall. Of what the King had done inside the northern wing, he had learned only this spring — late, in fragments, after the thing it described was already three years finished. He had read every fragment twice. Then he had set them down and gone back to the forge, because there was nothing in them he could change, and because the plan did not need his anger. It needed his accuracy. The hallucinations. The guilt. The particular sequence of failures that made the paranoia spike into something uncontrolled.
 
 The treasury report first. Then the military. Then the provincial.
 
@@ -223,6 +223,8 @@ The palace had a different layout.
 But the principles were the same.
 
 Entry through an unmapped route. Movement through a space where guards were positioned by schedule rather than intuition. One target. One position. One window measured in seconds, not minutes.
+
+And a space behind the target no wider than a coffin, which a dead eunuch had shown a thirteen-year-old boy one evening without explaining why.
 
 They ran it twice.
 
@@ -484,9 +486,9 @@ Jung Hae sat with the board and did not play.
 
 He looked at it.
  
-The King's board. Dark lacquer. Edges worn smooth from years of being carried by hands that were not his and then by his own. Eleven years since that fourteenth morning when a black stone and a white stone were placed side by side at the center and a man in a plain dark robe said: this is the most important thing.
+The King's board. Dark lacquer. Edges worn smooth from years of being carried by hands that were not his and then by his own. Ten years since that fourteenth morning when a black stone and a white stone were placed side by side at the center and a man in a plain dark robe said: this is the most important thing.
 
-Eleven years since he had placed a third stone close enough to touch.
+Ten years since he had placed a third stone close enough to touch.
 
 He had been filling this board ever since.
 

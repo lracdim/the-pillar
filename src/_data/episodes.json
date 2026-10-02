@@ -12,7 +12,12 @@
       "ko": "소년에게는 지킬 이름이 없었다. 마을 사람들은 그를 고아라고 불렀다.",
       "en": "The boy had no name worth keeping. The village called him Orphan, which was not a name at all.",
       "tl": "Ang batang lalaki ay walang pangalang dapat ingatan. Tinawag siyang Ulila ng nayon, na hindi naman talaga pangalan."
-    }
+    },
+    "langs": [
+      "ko",
+      "en",
+      "tl"
+    ]
   },
   {
     "slug": "ep2",
@@ -27,7 +32,12 @@
       "ko": "바둑은 전쟁의 은유가 아니다. 전쟁은 바둑의 은유다.",
       "en": "Go is not a metaphor for war. War is a metaphor for Go.",
       "tl": "Ang Go ay hindi isang metapora para sa digmaan. Ang digmaan ay isang metapora para sa Go."
-    }
+    },
+    "langs": [
+      "ko",
+      "en",
+      "tl"
+    ]
   },
   {
     "slug": "ep3",
@@ -42,7 +52,12 @@
       "ko": "대마는 죽는 것이 아니다. 대마는 놓치는 것이다.",
       "en": "The great piece does not die. The great piece is the one that gets lost.",
       "tl": "Ang dakilang piyesa ay hindi namamatay. Ang dakilang piyesa ay ang nawawala."
-    }
+    },
+    "langs": [
+      "ko",
+      "en",
+      "tl"
+    ]
   },
   {
     "slug": "ep4",
@@ -57,7 +72,12 @@
       "ko": "천둥은 같은 곳에 두 번 치지 않는다라고 사람들은 말한다. 그들은 틀렸다.",
       "en": "They say lightning never strikes the same place twice. They are wrong.",
       "tl": "Sinasabi nilang ang kidlat ay hindi tumatama sa iisang lugar nang dalawang beses. Sila ay mali."
-    }
+    },
+    "langs": [
+      "ko",
+      "en",
+      "tl"
+    ]
   },
   {
     "slug": "ep5",
@@ -72,6 +92,83 @@
       "ko": "기대할 것이 없을 때 하는 사랑이 있다. 이미 사라진 것에 모든 것을 쏟아붓는 사랑.",
       "en": "There is a kind of love that spends itself completely on something that is already gone.",
       "tl": "May isang uri ng pag-ibig na ibinibigay ang lahat sa isang bagay na wala na."
+    },
+    "langs": [
+      "ko",
+      "en",
+      "tl"
+    ]
+  },
+  {
+    "slug": "ep6",
+    "episode": 6,
+    "published": true,
+    "langs": [
+      "en"
+    ],
+    "titles": {
+      "ko": "물로 그린 설계도",
+      "en": "Blueprint Made in Water",
+      "tl": "Plano na Isinulat sa Tubig"
+    },
+    "excerpt": {
+      "ko": "오직 한 사람의 머릿속에만 존재하는 계획은 훔칠 수 없다. 움직이기 전까지는 찾을 것이 없기 때문이다.",
+      "en": "A plan that lives only in one mind cannot be stolen. It leaves nothing to find until it is already moving.",
+      "tl": "Ang planong nabubuhay lamang sa isang isipan ay hindi mananakaw. Wala itong iniiwang mahahanap hanggang sa gumagalaw na ito."
+    }
+  },
+  {
+    "slug": "ep7",
+    "episode": 7,
+    "published": true,
+    "langs": [
+      "en"
+    ],
+    "titles": {
+      "ko": "그림자의 빛",
+      "en": "The Light of the Shadow",
+      "tl": "Ang Liwanag ng Anino"
+    },
+    "excerpt": {
+      "ko": "그림자는 쫓아서 잡을 수 없다. 그림자를 드리운 것을 찾아야 한다. 그들은 찾았다. 아무것도 없었다.",
+      "en": "You cannot catch a shadow by chasing it. You can only look for the thing that cast it. They looked. They found nothing.",
+      "tl": "Hindi mo mahuhuli ang anino sa paghabol dito. Mahahanap mo lamang ang bagay na naglagay nito. Naghanap sila. Wala silang nakita."
+    }
+  },
+  {
+    "slug": "ep8",
+    "episode": 8,
+    "published": true,
+    "langs": [
+      "en"
+    ],
+    "titles": {
+      "ko": "심금",
+      "en": "Heartstring",
+      "tl": "Tali ng Puso"
+    },
+    "excerpt": {
+      "ko": "이름은 불리는 것이 아니다. 이름은 그것이 주어질 때 곁에 서 있던 사람이다.",
+      "en": "A name is not what you are called. A name is who stood beside you when it was given.",
+      "tl": "Ang pangalan ay hindi kung ano ang itinatawag sa iyo. Ang pangalan ay kung sino ang nakatayo sa tabi mo nang ibigay ito."
+    }
+  },
+  {
+    "slug": "ep9",
+    "episode": 9,
+    "published": true,
+    "langs": [
+      "en"
+    ],
+    "titles": {
+      "ko": "죽은 자의 무덤",
+      "en": "A Dead Man's Grave",
+      "tl": "Ang Libingan ng Patay"
+    },
+    "excerpt": {
+      "ko": "가장 좋은 거짓말은 누군가 이미 보고 있는 곳에 놓인 진실이다.",
+      "en": "The best lie is a true thing placed where someone is already looking.",
+      "tl": "Ang pinakamahusay na kasinungalingan ay isang totoong bagay na inilagay kung saan may naghahanap na."
     }
   }
 ]

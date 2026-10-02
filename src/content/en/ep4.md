@@ -152,7 +152,7 @@ There was nothing to say.
  
 After a while, Su Kyun said —
 
-"You cannot use that name here. Gu Jung Hae is a name the new King is looking for. Nam Jung Hae is recorded as dead — which is safer, but a dead man walking is its own kind of attention."
+"You cannot use either of your names here. Gu Jung Hae is a name that would end you the moment anyone understood what it meant. Nam Jung Hae is recorded as dead — which is safer, but a dead man walking is its own kind of attention. The new King has already sent men into this district looking for a servant who died of fever."
 
 The young man nodded slowly. He had known this. He had been waiting for the right name to replace what had been taken.
 
@@ -256,6 +256,20 @@ Both of them said things he chose not to hear.
 
 This time, he almost smiled.
 
+There was one thing he taught Byeon Mae alone.
+
+It began in the second year, after Taeyang was asleep. No sword. No drills. A knife the length of a hand, and a lesson that had nothing to do with fighting — because fighting, Su Kyun said, is two people who both know it is happening. This was the other thing. How to stand behind a man in a crowded room without being the thing anyone's eye settled on. How to move in the half-second when every head in a room is turned toward the same point. Where to put a blade so that it finished what it started.
+
+"Why not Taeyang?" Byeon Mae asked, the first night.
+
+"Taeyang is lightning," Su Kyun said. "Everyone sees lightning. That is what it is for." He set the knife down between them. "This is for the one no one is looking at."
+
+Byeon Mae looked at the knife for a long time.
+
+Then he picked it up.
+
+They did not speak of it in daylight. Taeyang never asked why his brother was tired on certain mornings. He had decided, early, that there were things between Su Kyun and Byeon Mae that were theirs, the way there were things between Su Kyun and himself.
+
 ✦
 
 ### **Part IV. The Politics**
@@ -350,7 +364,7 @@ Minho had not wanted repayment. He had wanted only that his son would be taken c
 
 Something had happened.
 
-Minho had died in the western campaign in the fourth year of the new reign — one of the experienced soldiers who had stayed in the army after the mass resignations, who had continued to serve because serving was what he knew and because there were still men in the field who needed someone competent beside them. He had died in the western border engagement that was lost because the commander did not know about the sandbar formation at the southern ford.
+Minho had died in the second month of the new reign — in the first western border engagement after the purge, one of the experienced soldiers who had stayed in the field when the officers walked out, because there were still men beside him who needed someone competent to stand next to. He had died in the engagement that was lost because the new commander had never heard of the sandbar formation at the southern ford.
 
 Su Kyun had heard about it from the commoner district.
 
@@ -370,21 +384,7 @@ Taeyang had been the established one when Byeon Mae arrived at the forge. That w
 
 Byeon Mae read this immediately and adjusted accordingly — not deferring, but acknowledging.
 
-Within the week they started training together.
- 
-This changed everything.
- 
-Su Kyun trained them as a unit — not separately, not in competition, but as two parts of something that needed to learn how to function together. He knew what each of them was. Taeyang was the finest natural weapon he had encountered in thirty-one years of training soldiers — instinctive, precise, born understanding the language of a fight the way some people are born understanding music. Byeon Mae was something else entirely: a mind that could read a battlefield before the first engagement, predict the outcome of a campaign from its initial conditions, see five moves ahead of every opponent.
-
-Separately they were exceptional.
-
-Together — if they could learn to work together — they were something Su Kyun did not have a word for.
-
-He pushed them until they found out what that something was.
- 
-The training was, by any reasonable standard, brutal.
-
-Up before the forge fire. Physical conditioning until the body argued. Sword work until the form was not just correct but automatic — until the blade moved the way breathing moved, without the intervention of thought. Endurance drills in the cold. Tactical exercises in the dark. Scenarios that began in the middle, without context, requiring immediate assessment and immediate action. Su Kyun did not explain why he was asking for something. He asked for it. He waited. He corrected.
+Within the week they were training together, and the training did what Su Kyun had built it to do.
 
 They complained to each other constantly.
 
@@ -576,7 +576,7 @@ That was enough.
  
 Su Kyun was brought into the square without ceremony.
 
-Plain clothes. No restraints — they had not bothered with restraints. He was fifty-three years old, stripped of his title, living in the commoner district. Restraints would have been theater for a threat that did not exist.
+Plain clothes. No restraints — they had not bothered with restraints. He was fifty-nine years old, stripped of his title, living in the commoner district. Restraints would have been theater for a threat that did not exist.
 
 They did not know who they were dealing with.
 

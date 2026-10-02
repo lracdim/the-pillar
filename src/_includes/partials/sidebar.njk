@@ -1,7 +1,7 @@
 <aside class="sidebar">
   <div class="sidebar-title">{% if lang == 'ko' %}{{ ko.sidebar_episodes }}{% else %}{{ en.sidebar_episodes }}{% endif %}</div>
   
-  {% for ep in episodes %}
+  {% for ep in episodes %}{% if (not ep.langs) or (lang in ep.langs) %}
   <div class="ep-item {% if slug == ep.slug %}active{% endif %}"
        data-slug="{{ ep.slug }}">
     <div class="ep-num">
@@ -9,5 +9,5 @@
     </div>
     <div class="ep-title">{{ ep.titles[lang] }}</div>
   </div>
-  {% endfor %}
+  {% endif %}{% endfor %}
 </aside>

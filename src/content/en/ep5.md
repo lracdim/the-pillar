@@ -153,7 +153,7 @@ He sat across from his mother at the dinner table.
 
 He did not tell her what had happened.
 
-Because telling her would make the shape of it real. And the shape of it — a king who had just discovered his imprisoned nephew was the most useful mind currently accessible to him — was not a shape that would give either of them comfort.
+Because telling her would make the shape of it real. And the shape of it — a king who had just discovered his imprisoned half-brother was the most useful mind currently accessible to him — was not a shape that would give either of them comfort.
 
 He ate his meal.
 
@@ -321,9 +321,7 @@ He stopped sleeping more than four hours.
 
 He stopped eating full meals — the mind worked better slightly hungry, he had found, or perhaps it was simply that the hunger gave him something to feel that was not grief and not fear, something physical and immediate and solvable in a way that the other things were not.
 
-He was fifteen. Then sixteen.
-
-Two years of sessions. Every third day. Every question answered.
+Eight months of sessions. Every third day. Every question answered.
  
 When the King was satisfied — when the session produced answers that were genuinely useful, that addressed real problems with real precision — he was almost civil. The flat administrative courtesy of a man who respected a tool that worked correctly.
 
@@ -363,7 +361,7 @@ So he believed it.
 
 ### **Part VI. The Empty Hands**
 
-Lady Yeon died on a night in the third month of Eunsik's fourteenth year.
+Lady Yeon died on a night in the tenth month of Eunsik's fourteenth year.
 
 The King had gone to the northern wing because the laugh had been worse than usual that night — the dead King's eyes following him through three rooms, the disappointment in them so complete it had the quality of a verdict rather than an expression. He had gone to the northern wing to do what he always did when the verdict became unbearable.
 

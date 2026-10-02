@@ -329,6 +329,17 @@ Then he unrolled the Dong-Rim map between them.
 "Walk me through the full campaign," he said. "All of it."
 Jung Hae set down the stone. Pulled the map toward him. And began.
  
+In the third year, Chief Eunuch Noh Gilsu showed him two things.
+He did not explain either of them. He simply came to the corridor one evening, said come, and walked. The first was a panel in the northern storage wall that opened onto a passage smelling of earth and old mortar. Noh Gilsu pointed into the dark and said: remember this.
+The second was in the throne hall.
+Not the hall itself — Jung Hae had never stood in it and would not. Behind it. A lamp-tenders' gallery, narrow as a coffin, running the width of the dais between the rear wall and the painted screen that stood behind the throne. It existed so that the oil lamps above the King's seat could be trimmed during a session without a servant walking across the floor. Three steps from the gallery's hidden door to the center of the screen. The screen's panels were hinged. The hinges had not been oiled in a generation.
+"Who knows about this?"
+"The lamp-tenders. Me. Now you."
+"Why me?"
+Noh Gilsu looked at him in the dark for a moment.
+"Because the day may come when you need to know how a king can be reached," he said. "I would rather you knew it than someone else."
+Jung Hae remembered it. He filed it with the northern passage, in the place where he kept things whose purpose had not arrived yet.
+ 
 By the time Jung Hae was seventeen, the kingdoms bordering Joseon did not attack.
 Not because the kingdom was rich. Not because its army was the largest. But because something in the pattern of Joseon's victories — the uncanny precision of them, the sense that every move the enemy made had somehow already been predicted and answered — had produced, in the minds of neighboring commanders, a feeling that had no name in their military vocabulary.
 It was not fear of strength. It was something older than that.

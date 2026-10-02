@@ -317,13 +317,13 @@ Numbers never do.
 X.
 The Performance of Grief
 The announcement moved through the palace the way all announcements moved — faster than any official channel, arriving in each room already slightly altered from its original form.
-In the rear quarters where Lady Yeon and the ninth prince had been confined, it arrived on the third day. A court lady read from the updated servant registry — the list of deaths and departures from the previous reign, being formally closed for record. She read each name with practiced neutrality.
-She came, near the end, to a short entry.
+In the rear quarters where Lady Yeon and the ninth prince had been confined, it arrived on the third day — not as news, but as paperwork. The household's reduced staff still received the palace circulars, and the circulars still had to be filed. The updated servant registry came with them: the list of deaths and departures from the previous reign, being formally closed for record. Eunsik, who read everything that passed through the rooms because reading was the only thing left that no one could restrict, read it at the writing table while a court lady folded linen three paces away.
+He came, near the end, to a short entry.
 Nam Jung Hae. Junior attendant, inner east wing storage. Deceased. Fever. Autumn of the twenty-second year.
  
 Gu Eunsik went completely still.
-Lady Yeon, beside him, did not move.
-The court lady finished the list, set down the document, and withdrew.
+Lady Yeon, reading over his shoulder, did not move.
+The court lady folded the linen. The guard at the door shifted his weight. Both of them were positioned to report what they saw.
  
 Eunsik looked at his hands in his lap.
 He thought about a storage corridor floor. Grain ledgers. A cat. A young man who had handed him the western province records without comment and sat across from him — not beside, always across, the way people who are serious about conversation sit — and treated him like a person worth understanding.
@@ -492,7 +492,7 @@ He simply grieved.
 For the first time since he was ten years old and standing alone at the edge of everything —
 He let himself be exactly as broken as he was.
 ✦
-V.
+XV.
 The Commoner District
 There was a man in the commoner district that no one knew.
 He had appeared some weeks ago — no one could say exactly when, because the commoner district was the kind of place where people appeared and did not appear and the neighbors had learned, over generations, that not tracking arrivals was a form of mutual protection that benefited everyone.
